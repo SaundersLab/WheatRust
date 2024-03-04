@@ -15,6 +15,17 @@ Country	Sweden	#5F9F9F
 Country	Turkey	#FFFF00
 Country	UK	#855E42
 Country	USA	#5959AB
+Country	Australia	#FF7F00
+Country	Zimbabwe	#FF0000
+Country 	Iran	#00FF00
+Country	Mexico	#00FFFF
+Country	Hungary	#FFD700
+Country	Italy	#FFA500
+Country	Eritrea	#D0474E
+Country	Tanzania	#5B4836
+Country	Israel	#364271
+Country	Pakistan	#C5B358
+Country	Denmark	#F74ABD
 Region	Africa	#FF7F00
 Region	Asia	#FF0000
 Region	Europe	#0000FF
@@ -51,4 +62,4 @@ Group	TKTTF	#00FFFF
 Group	QCCJB	#00FF7F
 Group	TTKSP 	#7FFF00
 Group	PTKST	#8A2BE2
-Group	TTKSF	#bfa99e
+Group	TTKSF	#bfa9
