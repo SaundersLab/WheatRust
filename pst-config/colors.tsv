@@ -38,10 +38,11 @@ Group	France 1988-2013	#495C55
 Group	UK 1978-2011	#F74ABD
 Group	Cluster 3 (Hubbard et al., 2015)	#73BFC0
 Group	Other	#bfa99e
-Group	PstS2 v27	#008080
-Group	PstS5 v17	#1022FF
+Group	PstS2	#008080
+Group	PstS5	#1022FF
 Group	PstS6	#FBA52B
-Group	PstS9 v17	#14F624
+Group	PstS9	#14F624
+Group	PstS13	#FF0000
 Group	Triticum aestivum	#FF7F00
 Group	Spelta	#FFFF00
 Group	Secale cereale	#0000FF
