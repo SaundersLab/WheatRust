@@ -1,0 +1,2338 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Analysis of worldwide wheat yellow and stem rust samples",
+    "updated": "2024-03-15",
+    "maintainers": [
+      {
+        "name": "Loizos Savva and Diane Saunders",
+        "url": "https://www.jic.ac.uk/people/diane-saunders/"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "group"
+    },
+    "colorings": [
+      {
+        "key": "group",
+        "title": "genetic group",
+        "type": "categorical",
+        "scale": [
+          [
+            "PstS7",
+            "#9C577F"
+          ],
+          [
+            "Triticale",
+            "#6BA557"
+          ],
+          [
+            "PstS10",
+            "#D0474E"
+          ],
+          [
+            "PstS8",
+            "#5B4836"
+          ],
+          [
+            "PstS1",
+            "#364271"
+          ],
+          [
+            "PstS4",
+            "#C5B358"
+          ],
+          [
+            "France 1988-2013",
+            "#495C55"
+          ],
+          [
+            "UK 1978-2011",
+            "#F74ABD"
+          ],
+          [
+            "Cluster 3 (Hubbard et al., 2015)",
+            "#73BFC0"
+          ],
+          [
+            "Other",
+            "#bfa99e"
+          ],
+          [
+            "PstS2",
+            "#008080"
+          ],
+          [
+            "PstS5",
+            "#1022FF"
+          ],
+          [
+            "PstS6",
+            "#FBA52B"
+          ],
+          [
+            "PstS9",
+            "#14F624"
+          ],
+          [
+            "PstS13",
+            "#FF0000"
+          ]
+        ]
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Azerbaijan",
+            "#2F4F2F"
+          ],
+          [
+            "Belgium",
+            "#FF00FF"
+          ],
+          [
+            "Chile",
+            "#CFB53B"
+          ],
+          [
+            "Czech Republic",
+            "#9932CD"
+          ],
+          [
+            "Denmark",
+            "#00FFFF"
+          ],
+          [
+            "Ethiopia",
+            "#B5A642"
+          ],
+          [
+            "France",
+            "#545454"
+          ],
+          [
+            "Germany",
+            "#DB70DB"
+          ],
+          [
+            "Italy",
+            "#CC3299"
+          ],
+          [
+            "Kenya",
+            "#BEADED"
+          ],
+          [
+            "New Zealand",
+            "#99CC32"
+          ],
+          [
+            "Pakistan",
+            "#DB9370"
+          ],
+          [
+            "Poland",
+            "#871F78"
+          ],
+          [
+            "Sweden",
+            "#5F9F9F"
+          ],
+          [
+            "UK",
+            "#855E42"
+          ],
+          [
+            "USA",
+            "#5959AB"
+          ],
+          [
+            "Uzbekistan",
+            "#238E68"
+          ]
+        ]
+      },
+      {
+        "key": "region",
+        "title": "region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Africa",
+            "#FF7F00"
+          ],
+          [
+            "Asia",
+            "#FF0000"
+          ],
+          [
+            "Europe",
+            "#0000FF"
+          ],
+          [
+            "North America",
+            "#00FF00"
+          ],
+          [
+            "Oceania",
+            "#00FFFF"
+          ],
+          [
+            "South America",
+            "#FFFF00"
+          ]
+        ]
+      },
+      {
+        "key": "confidence",
+        "title": "confidence",
+        "type": "continuous"
+      }
+    ],
+    "filters": [
+      "country",
+      "author",
+      "host",
+      "group",
+      "collector",
+      "region"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "location",
+        "demes": {
+          "Abbottabad": {
+            "latitude": 34.15,
+            "longitude": 73.2167
+          },
+          "Caythorpe, Lincolnshire": {
+            "latitude": 53.0212,
+            "longitude": -0.5993
+          },
+          "B\u00f6hl Bauch 10": {
+            "latitude": 49.384,
+            "longitude": 8.2987
+          },
+          "Sroda Wielko": {
+            "latitude": 52.2291,
+            "longitude": 17.2761
+          },
+          "Druelle": {
+            "latitude": 44.3444,
+            "longitude": 2.4931
+          },
+          "Tiegem": {
+            "latitude": 50.8086,
+            "longitude": 3.4753
+          },
+          "Rokytnice": {
+            "latitude": 49.4659,
+            "longitude": 17.3912
+          },
+          "Terrington St Clement, Norfolk": {
+            "latitude": 52.7546,
+            "longitude": 0.2948
+          },
+          "Ruchheim": {
+            "latitude": 49.4743,
+            "longitude": 8.3292
+          },
+          "Werbig": {
+            "latitude": 52.5305,
+            "longitude": 11.544
+          },
+          "Cajon": {
+            "latitude": -38.6812,
+            "longitude": -72.5109
+          },
+          "Rockland St Mary, Norfolk": {
+            "latitude": 52.5892,
+            "longitude": 1.4259
+          },
+          "Hingste": {
+            "latitude": 52.8215,
+            "longitude": 9.1857
+          },
+          "Choryn": {
+            "latitude": 52.0406,
+            "longitude": 16.7831
+          },
+          "Koksijde": {
+            "latitude": 51.1,
+            "longitude": 2.65
+          },
+          "Conselice": {
+            "latitude": 44.5167,
+            "longitude": 11.8333
+          },
+          "Lincolnshire": {
+            "latitude": 52.9452,
+            "longitude": -0.1601
+          },
+          "Darfield": {
+            "latitude": -43.488,
+            "longitude": 172.109
+          },
+          "Sinana": {
+            "latitude": 7.0674,
+            "longitude": 40.2151
+          }
+        }
+      },
+      {
+        "key": "country",
+        "demes": {
+          "Germany": {
+            "latitude": 51.1657,
+            "longitude": 10.4515
+          },
+          "Italy": {
+            "latitude": 41.8719,
+            "longitude": 12.5674
+          },
+          "Belgium": {
+            "latitude": 50.6407351,
+            "longitude": 4.66696
+          },
+          "Denmark": {
+            "latitude": 56.2639,
+            "longitude": 9.5018
+          },
+          "New Zealand": {
+            "latitude": -41.500083,
+            "longitude": 172.8344077
+          },
+          "Ethiopia": {
+            "latitude": 9.145,
+            "longitude": 40.4897
+          },
+          "Poland": {
+            "latitude": 51.9194,
+            "longitude": 19.1451
+          },
+          "Kenya": {
+            "latitude": -0.0236,
+            "longitude": 37.9062
+          },
+          "France": {
+            "latitude": 46.6034,
+            "longitude": 1.8883
+          },
+          "Sweden": {
+            "latitude": 60.1282,
+            "longitude": 18.6435
+          },
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458824
+          },
+          "Chile": {
+            "latitude": -35.6751,
+            "longitude": -71.543
+          },
+          "Azerbaijan": {
+            "latitude": 40.1431,
+            "longitude": 47.5769
+          },
+          "Pakistan": {
+            "latitude": 30.3753,
+            "longitude": 69.3451
+          },
+          "Czech Republic": {
+            "latitude": 50.0878,
+            "longitude": 14.4205
+          },
+          "UK": {
+            "latitude": 55.3781,
+            "longitude": -3.436
+          },
+          "Uzbekistan": {
+            "latitude": 41.3775,
+            "longitude": 64.5853
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "Europe": {
+            "latitude": 49.646237,
+            "longitude": 10.799454
+          },
+          "Africa": {
+            "latitude": 4.070194,
+            "longitude": 21.824559
+          },
+          "Oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
+          },
+          "North America": {
+            "latitude": 28.2367447,
+            "longitude": -97.738017
+          },
+          "South America": {
+            "latitude": -13.083583,
+            "longitude": -58.470721
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "author": {
+        "author": "Hubbard et al., 2015",
+        "value": "Hubbard et al., 2015 A"
+      },
+      "group": {
+        "value": "France 1988-2013"
+      }
+    },
+    "branch_attrs": {},
+    "children": [
+      {
+        "name": "88.5SS1",
+        "node_attrs": {
+          "div": 5e-09,
+          "author": {
+            "author": "Hubbard et al., 2015",
+            "value": "Hubbard et al., 2015 A"
+          },
+          "group": {
+            "value": "France 1988-2013"
+          }
+        },
+        "branch_attrs": {}
+      },
+      {
+        "name": "J01144Bm1",
+        "node_attrs": {
+          "div": 5e-09,
+          "author": {
+            "author": "Hubbard et al., 2015",
+            "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+            "journal": "Genome Biol. (1): 23 (2015)",
+            "value": "Hubbard et al., 2015 B"
+          },
+          "region": {
+            "value": "Europe"
+          },
+          "group": {
+            "value": "France 1988-2013"
+          },
+          "country": {
+            "value": "France"
+          }
+        },
+        "branch_attrs": {}
+      },
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 5e-09,
+          "author": {
+            "author": "Hubbard et al., 2015",
+            "value": "Hubbard et al., 2015 A"
+          },
+          "group": {
+            "value": "PstS10"
+          },
+          "confidence": {
+            "value": 0.777
+          }
+        },
+        "branch_attrs": {},
+        "children": [
+          {
+            "name": "13/21",
+            "node_attrs": {
+              "div": 1e-08,
+              "author": {
+                "author": "Hubbard et al., 2015",
+                "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                "journal": "Genome Biol. (1): 23 (2015)",
+                "value": "Hubbard et al., 2015 B"
+              },
+              "region": {
+                "value": "Europe"
+              },
+              "group": {
+                "value": "PstS10"
+              },
+              "host": {
+                "value": "KWS Rowan"
+              },
+              "country": {
+                "value": "UK"
+              },
+              "location": {
+                "value": "Terrington St Clement, Norfolk"
+              }
+            },
+            "branch_attrs": {}
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 1e-08,
+              "author": {
+                "author": "Hubbard et al., 2015",
+                "value": "Hubbard et al., 2015 A"
+              },
+              "group": {
+                "value": "UK 1978-2011"
+              },
+              "confidence": {
+                "value": 0.814
+              }
+            },
+            "branch_attrs": {},
+            "children": [
+              {
+                "name": "11/128",
+                "node_attrs": {
+                  "div": 1.5000000000000002e-08,
+                  "author": {
+                    "author": "Hubbard et al., 2015",
+                    "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                    "journal": "Genome Biol. (1): 23 (2015)",
+                    "value": "Hubbard et al., 2015 B"
+                  },
+                  "region": {
+                    "value": "Europe"
+                  },
+                  "group": {
+                    "value": "UK 1978-2011"
+                  },
+                  "country": {
+                    "value": "UK"
+                  }
+                },
+                "branch_attrs": {}
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 7.922e-06,
+                  "author": {
+                    "author": "Bueno-Sancho et al., 2017",
+                    "value": "Bueno-Sancho et al., 2017 A"
+                  },
+                  "group": {
+                    "value": "Other"
+                  },
+                  "confidence": {
+                    "value": 0.919
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "12/08",
+                    "node_attrs": {
+                      "div": 7.927e-06,
+                      "author": {
+                        "author": "Bueno-Sancho et al., 2017",
+                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                        "value": "Bueno-Sancho et al., 2017 B"
+                      },
+                      "region": {
+                        "value": "Oceania"
+                      },
+                      "group": {
+                        "value": "Other"
+                      },
+                      "collector": {
+                        "value": "Richard Oliver"
+                      },
+                      "country": {
+                        "value": "New Zealand"
+                      }
+                    },
+                    "branch_attrs": {}
+                  },
+                  {
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 7.928e-06,
+                      "author": {
+                        "author": "Bueno-Sancho et al., 2017",
+                        "value": "Bueno-Sancho et al., 2017 A"
+                      },
+                      "group": {
+                        "value": "Other"
+                      },
+                      "confidence": {
+                        "value": 0.22
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "Chile_30",
+                        "node_attrs": {
+                          "div": 7.933e-06,
+                          "author": {
+                            "author": "Bueno-Sancho et al., 2017",
+                            "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                            "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                            "value": "Bueno-Sancho et al., 2017 B"
+                          },
+                          "region": {
+                            "value": "South America"
+                          },
+                          "group": {
+                            "value": "Other"
+                          },
+                          "collector": {
+                            "value": "Ricardo Madariaga Burrows"
+                          },
+                          "host": {
+                            "value": "Taita"
+                          },
+                          "country": {
+                            "value": "Chile"
+                          },
+                          "location": {
+                            "value": "Cajon"
+                          }
+                        },
+                        "branch_attrs": {}
+                      },
+                      {
+                        "name": "NODE_0000005",
+                        "node_attrs": {
+                          "div": 1.8527e-05,
+                          "author": {
+                            "author": "Bueno-Sancho et al., 2017",
+                            "value": "Bueno-Sancho et al., 2017 A"
+                          },
+                          "group": {
+                            "value": "Other"
+                          },
+                          "confidence": {
+                            "value": 0.821
+                          }
+                        },
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "name": "14.0078",
+                            "node_attrs": {
+                              "div": 2.0617e-05,
+                              "author": {
+                                "author": "Bueno-Sancho et al., 2017",
+                                "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                "value": "Bueno-Sancho et al., 2017 B"
+                              },
+                              "region": {
+                                "value": "Europe"
+                              },
+                              "group": {
+                                "value": "Cluster 3 (Hubbard et al., 2015)"
+                              },
+                              "collector": {
+                                "value": "A. Resweber"
+                              },
+                              "host": {
+                                "value": "Victo"
+                              },
+                              "country": {
+                                "value": "Germany"
+                              },
+                              "location": {
+                                "value": "Ruchheim"
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "NODE_0000006",
+                            "node_attrs": {
+                              "div": 0.000361931,
+                              "author": {
+                                "author": "Bueno-Sancho et al., 2017",
+                                "value": "Bueno-Sancho et al., 2017 A"
+                              },
+                              "group": {
+                                "value": "Other"
+                              },
+                              "confidence": {
+                                "value": 1.0
+                              }
+                            },
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "name": "NODE_0000007",
+                                "node_attrs": {
+                                  "div": 0.000514147,
+                                  "author": {
+                                    "author": "Bueno-Sancho et al., 2017",
+                                    "value": "Bueno-Sancho et al., 2017 A"
+                                  },
+                                  "group": {
+                                    "value": "Other"
+                                  },
+                                  "confidence": {
+                                    "value": 1.0
+                                  }
+                                },
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "name": "Qld-2",
+                                    "node_attrs": {
+                                      "div": 0.0005164579999999999,
+                                      "author": {
+                                        "author": "Bueno-Sancho et al., 2017",
+                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                        "value": "Bueno-Sancho et al., 2017 B"
+                                      },
+                                      "region": {
+                                        "value": "Asia"
+                                      },
+                                      "group": {
+                                        "value": "Other"
+                                      },
+                                      "country": {
+                                        "value": "Pakistan"
+                                      },
+                                      "location": {
+                                        "value": "Abbottabad"
+                                      }
+                                    },
+                                    "branch_attrs": {}
+                                  },
+                                  {
+                                    "name": "17.0499",
+                                    "node_attrs": {
+                                      "div": 0.0005141519999999999,
+                                      "author": {
+                                        "author": "Radhakrishnan et al., 2019",
+                                        "title": "Mobile and real-time plant disease (MARPLE) diagnostics for strain-level identification of complex fungal pathogens",
+                                        "journal": "BMC Biology",
+                                        "value": "Radhakrishnan et al., 2019"
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Ethiopia"
+                                      }
+                                    },
+                                    "branch_attrs": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000008",
+                                "node_attrs": {
+                                  "div": 0.000627087,
+                                  "author": {
+                                    "author": "Bueno-Sancho et al., 2017",
+                                    "value": "Bueno-Sancho et al., 2017 A"
+                                  },
+                                  "group": {
+                                    "value": "Other"
+                                  },
+                                  "confidence": {
+                                    "value": 0.03
+                                  }
+                                },
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "name": "NODE_0000009",
+                                    "node_attrs": {
+                                      "div": 0.000795562,
+                                      "author": {
+                                        "author": "Bueno-Sancho et al., 2017",
+                                        "value": "Bueno-Sancho et al., 2017 A"
+                                      },
+                                      "group": {
+                                        "value": "Triticale"
+                                      },
+                                      "confidence": {
+                                        "value": 0.964
+                                      }
+                                    },
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "name": "14.0062",
+                                        "node_attrs": {
+                                          "div": 0.000808682,
+                                          "author": {
+                                            "author": "Bueno-Sancho et al., 2017",
+                                            "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                            "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                            "value": "Bueno-Sancho et al., 2017 B"
+                                          },
+                                          "region": {
+                                            "value": "Europe"
+                                          },
+                                          "group": {
+                                            "value": "Triticale"
+                                          },
+                                          "collector": {
+                                            "value": "Ruth Bryant"
+                                          },
+                                          "host": {
+                                            "value": "Unknown Triticale"
+                                          },
+                                          "country": {
+                                            "value": "France"
+                                          },
+                                          "location": {
+                                            "value": "Druelle"
+                                          }
+                                        },
+                                        "branch_attrs": {}
+                                      },
+                                      {
+                                        "name": "NODE_0000010",
+                                        "node_attrs": {
+                                          "div": 0.000943127,
+                                          "author": {
+                                            "author": "Bueno-Sancho et al., 2017",
+                                            "value": "Bueno-Sancho et al., 2017 A"
+                                          },
+                                          "group": {
+                                            "value": "Triticale"
+                                          },
+                                          "confidence": {
+                                            "value": 0.111
+                                          }
+                                        },
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000011",
+                                            "node_attrs": {
+                                              "div": 0.001409452,
+                                              "author": {
+                                                "author": "Bueno-Sancho et al., 2017",
+                                                "value": "Bueno-Sancho et al., 2017 A"
+                                              },
+                                              "group": {
+                                                "value": "Triticale"
+                                              },
+                                              "confidence": {
+                                                "value": 1.0
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000012",
+                                                "node_attrs": {
+                                                  "div": 0.001449242,
+                                                  "author": {
+                                                    "author": "Walter et al., 2016",
+                                                    "value": "Walter et al., 2016 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS2"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.973
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "KE86058",
+                                                    "node_attrs": {
+                                                      "div": 0.0014492480000000002,
+                                                      "author": {
+                                                        "author": "Walter et al., 2016",
+                                                        "title": "Molecular markers for tracking the origin and worldwide distribution of invasive strains of Puccinia striiformis",
+                                                        "journal": "Ecology and Evolution (2016) 6:9",
+                                                        "value": "Walter et al., 2016 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Africa"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS1"
+                                                      },
+                                                      "country": {
+                                                        "value": "Kenya"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "AZ165/16",
+                                                    "node_attrs": {
+                                                      "div": 0.001465322,
+                                                      "author": {
+                                                        "author": "Walter et al., 2016",
+                                                        "title": "Molecular markers for tracking the origin and worldwide distribution of invasive strains of Puccinia striiformis",
+                                                        "journal": "Ecology and Evolution (2016) 6:9",
+                                                        "value": "Walter et al., 2016 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Asia"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS2"
+                                                      },
+                                                      "country": {
+                                                        "value": "Azerbaijan"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000013",
+                                                "node_attrs": {
+                                                  "div": 0.001630128,
+                                                  "author": {
+                                                    "author": "Hovm\u00f8ller et al., 2016",
+                                                    "value": "Hovm\u00f8ller et al., 2016 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS4"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 1.0
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "SE225/15",
+                                                    "node_attrs": {
+                                                      "div": 0.001668984,
+                                                      "author": {
+                                                        "author": "Hovm\u00f8ller et al., 2016",
+                                                        "title": "Replacement of the European wheat yellow rust population by new races from the centre of diversity in the near-Himalayan region",
+                                                        "journal": "Plant Pathology (2016) 65",
+                                                        "value": "Hovm\u00f8ller et al., 2016 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS4"
+                                                      },
+                                                      "country": {
+                                                        "value": "Sweden"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000014",
+                                                    "node_attrs": {
+                                                      "div": 0.008240025,
+                                                      "author": {
+                                                        "author": "Ali et al., 2017",
+                                                        "value": "Ali et al., 2017 A"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS6"
+                                                      },
+                                                      "confidence": {
+                                                        "value": 1.0
+                                                      }
+                                                    },
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "name": "ET399_15",
+                                                        "node_attrs": {
+                                                          "div": 0.008489975,
+                                                          "author": {
+                                                            "author": "Unknown",
+                                                            "value": "Unknown"
+                                                          },
+                                                          "region": {
+                                                            "value": "Africa"
+                                                          },
+                                                          "group": {
+                                                            "value": "PstS6"
+                                                          },
+                                                          "country": {
+                                                            "value": "Ethiopia"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {}
+                                                      },
+                                                      {
+                                                        "name": "ET08/10",
+                                                        "node_attrs": {
+                                                          "div": 0.008950285,
+                                                          "author": {
+                                                            "author": "Ali et al., 2017",
+                                                            "title": "Yellow Rust Epidemics Worldwide Were Caused by Pathogen Races from Divergent Genetic Lineages",
+                                                            "journal": "Front. Plant Sci. (2017) 8",
+                                                            "value": "Ali et al., 2017 B"
+                                                          },
+                                                          "region": {
+                                                            "value": "Africa"
+                                                          },
+                                                          "group": {
+                                                            "value": "PstS6"
+                                                          },
+                                                          "country": {
+                                                            "value": "Ethiopia"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {}
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000015",
+                                            "node_attrs": {
+                                              "div": 0.001109873,
+                                              "author": {
+                                                "author": "Bueno-Sancho et al., 2017",
+                                                "value": "Bueno-Sancho et al., 2017 A"
+                                              },
+                                              "group": {
+                                                "value": "Triticale"
+                                              },
+                                              "confidence": {
+                                                "value": 1.0
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000016",
+                                                "node_attrs": {
+                                                  "div": 0.001123916,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "Other"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.917
+                                                  },
+                                                  "collector": {
+                                                    "value": "Richard Oliver"
+                                                  },
+                                                  "host": {
+                                                    "value": "Morph"
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "14.0240",
+                                                    "node_attrs": {
+                                                      "div": 0.001123921,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Africa"
+                                                      },
+                                                      "group": {
+                                                        "value": "Other"
+                                                      },
+                                                      "collector": {
+                                                        "value": "Dave Hodson"
+                                                      },
+                                                      "host": {
+                                                        "value": "Sanate"
+                                                      },
+                                                      "country": {
+                                                        "value": "Ethiopia"
+                                                      },
+                                                      "location": {
+                                                        "value": "Sinana"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "11/03",
+                                                    "node_attrs": {
+                                                      "div": 0.001191019,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania"
+                                                      },
+                                                      "group": {
+                                                        "value": "Other"
+                                                      },
+                                                      "collector": {
+                                                        "value": "Richard Oliver"
+                                                      },
+                                                      "host": {
+                                                        "value": "Morph"
+                                                      },
+                                                      "country": {
+                                                        "value": "New Zealand"
+                                                      },
+                                                      "location": {
+                                                        "value": "Darfield"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000017",
+                                                "node_attrs": {
+                                                  "div": 0.00113787,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "Triticale"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.9
+                                                  },
+                                                  "collector": {
+                                                    "value": "A. Resweber"
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "14.0077",
+                                                    "node_attrs": {
+                                                      "div": 0.001137875,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "Triticale"
+                                                      },
+                                                      "collector": {
+                                                        "value": "A. Resweber"
+                                                      },
+                                                      "host": {
+                                                        "value": "Irnerio"
+                                                      },
+                                                      "country": {
+                                                        "value": "Italy"
+                                                      },
+                                                      "location": {
+                                                        "value": "Conselice"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000018",
+                                                    "node_attrs": {
+                                                      "div": 0.001137875,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "value": "Bueno-Sancho et al., 2017 A"
+                                                      },
+                                                      "group": {
+                                                        "value": "Triticale"
+                                                      },
+                                                      "confidence": {
+                                                        "value": 0.835
+                                                      },
+                                                      "collector": {
+                                                        "value": "Viktor"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "name": "14.0120",
+                                                        "node_attrs": {
+                                                          "div": 0.00113788,
+                                                          "author": {
+                                                            "author": "Bueno-Sancho et al., 2017",
+                                                            "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                            "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                            "value": "Bueno-Sancho et al., 2017 B"
+                                                          },
+                                                          "region": {
+                                                            "value": "Europe"
+                                                          },
+                                                          "group": {
+                                                            "value": "Triticale"
+                                                          },
+                                                          "collector": {
+                                                            "value": "Viktor"
+                                                          },
+                                                          "host": {
+                                                            "value": "Rye"
+                                                          },
+                                                          "country": {
+                                                            "value": "Germany"
+                                                          },
+                                                          "location": {
+                                                            "value": "Werbig"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {}
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000019",
+                                                        "node_attrs": {
+                                                          "div": 0.00113788,
+                                                          "author": {
+                                                            "author": "Bueno-Sancho et al., 2017",
+                                                            "value": "Bueno-Sancho et al., 2017 A"
+                                                          },
+                                                          "group": {
+                                                            "value": "Triticale"
+                                                          },
+                                                          "confidence": {
+                                                            "value": 0.967
+                                                          },
+                                                          "collector": {
+                                                            "value": "Clare Lewis"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "name": "14.0010",
+                                                            "node_attrs": {
+                                                              "div": 0.001137885,
+                                                              "author": {
+                                                                "author": "Bueno-Sancho et al., 2017",
+                                                                "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                                "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                                "value": "Bueno-Sancho et al., 2017 B"
+                                                              },
+                                                              "region": {
+                                                                "value": "Europe"
+                                                              },
+                                                              "group": {
+                                                                "value": "Triticale"
+                                                              },
+                                                              "collector": {
+                                                                "value": "Zofia Banaszak"
+                                                              },
+                                                              "country": {
+                                                                "value": "Poland"
+                                                              },
+                                                              "location": {
+                                                                "value": "Choryn"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {}
+                                                          },
+                                                          {
+                                                            "name": "CL1",
+                                                            "node_attrs": {
+                                                              "div": 0.001137885,
+                                                              "author": {
+                                                                "author": "Hubbard et al., 2015",
+                                                                "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                                                                "journal": "Genome Biol. (1): 23 (2015)",
+                                                                "value": "Hubbard et al., 2015 B"
+                                                              },
+                                                              "region": {
+                                                                "value": "Europe"
+                                                              },
+                                                              "group": {
+                                                                "value": "Triticale"
+                                                              },
+                                                              "collector": {
+                                                                "value": "Clare Lewis"
+                                                              },
+                                                              "host": {
+                                                                "value": "Unknown Triticale"
+                                                              },
+                                                              "country": {
+                                                                "value": "UK"
+                                                              },
+                                                              "location": {
+                                                                "value": "Rockland St Mary, Norfolk"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {}
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000020",
+                                    "node_attrs": {
+                                      "div": 0.001372395,
+                                      "author": {
+                                        "author": "Bueno-Sancho et al., 2017",
+                                        "value": "Bueno-Sancho et al., 2017 A"
+                                      },
+                                      "group": {
+                                        "value": "PstS10"
+                                      },
+                                      "confidence": {
+                                        "value": 1.0
+                                      }
+                                    },
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000021",
+                                        "node_attrs": {
+                                          "div": 0.001380089,
+                                          "author": {
+                                            "author": "Bueno-Sancho et al., 2017",
+                                            "value": "Bueno-Sancho et al., 2017 A"
+                                          },
+                                          "group": {
+                                            "value": "PstS10"
+                                          },
+                                          "confidence": {
+                                            "value": 0.838
+                                          }
+                                        },
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "name": "11/13",
+                                            "node_attrs": {
+                                              "div": 0.001380094,
+                                              "author": {
+                                                "author": "Hubbard et al., 2015",
+                                                "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                                                "journal": "Genome Biol. (1): 23 (2015)",
+                                                "value": "Hubbard et al., 2015 B"
+                                              },
+                                              "region": {
+                                                "value": "Europe"
+                                              },
+                                              "group": {
+                                                "value": "UK 1978-2011"
+                                              },
+                                              "country": {
+                                                "value": "UK"
+                                              }
+                                            },
+                                            "branch_attrs": {}
+                                          },
+                                          {
+                                            "name": "NODE_0000022",
+                                            "node_attrs": {
+                                              "div": 0.001380094,
+                                              "author": {
+                                                "author": "Bueno-Sancho et al., 2017",
+                                                "value": "Bueno-Sancho et al., 2017 A"
+                                              },
+                                              "group": {
+                                                "value": "PstS10"
+                                              },
+                                              "confidence": {
+                                                "value": 0.809
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "14.0159",
+                                                "node_attrs": {
+                                                  "div": 0.0013800989999999999,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                    "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                    "value": "Bueno-Sancho et al., 2017 B"
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS10"
+                                                  },
+                                                  "host": {
+                                                    "value": "Claire"
+                                                  },
+                                                  "country": {
+                                                    "value": "UK"
+                                                  },
+                                                  "location": {
+                                                    "value": "Caythorpe, Lincolnshire"
+                                                  }
+                                                },
+                                                "branch_attrs": {}
+                                              },
+                                              {
+                                                "name": "NODE_0000023",
+                                                "node_attrs": {
+                                                  "div": 0.0013800989999999999,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS10"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.449
+                                                  },
+                                                  "collector": {
+                                                    "value": "A. Resweber"
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "14.0108",
+                                                    "node_attrs": {
+                                                      "div": 0.0013801039999999998,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS10"
+                                                      },
+                                                      "collector": {
+                                                        "value": "Claude Pope"
+                                                      },
+                                                      "host": {
+                                                        "value": "Unknown Durum Wheat"
+                                                      },
+                                                      "country": {
+                                                        "value": "France"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "14.0079",
+                                                    "node_attrs": {
+                                                      "div": 0.0013801039999999998,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS10"
+                                                      },
+                                                      "collector": {
+                                                        "value": "A. Resweber"
+                                                      },
+                                                      "country": {
+                                                        "value": "Germany"
+                                                      },
+                                                      "location": {
+                                                        "value": "B\u00f6hl Bauch 10"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000024",
+                                        "node_attrs": {
+                                          "div": 0.001430378,
+                                          "author": {
+                                            "author": "Bueno-Sancho et al., 2017",
+                                            "value": "Bueno-Sancho et al., 2017 A"
+                                          },
+                                          "group": {
+                                            "value": "PstS10"
+                                          },
+                                          "confidence": {
+                                            "value": 0.687
+                                          }
+                                        },
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000025",
+                                            "node_attrs": {
+                                              "div": 0.00143043,
+                                              "author": {
+                                                "author": "Bueno-Sancho et al., 2017",
+                                                "value": "Bueno-Sancho et al., 2017 A"
+                                              },
+                                              "group": {
+                                                "value": "PstS10"
+                                              },
+                                              "confidence": {
+                                                "value": 0.06
+                                              },
+                                              "collector": {
+                                                "value": "Yves Decroos"
+                                              },
+                                              "host": {
+                                                "value": "JB Asano"
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "14.0097",
+                                                "node_attrs": {
+                                                  "div": 0.0014304349999999999,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                    "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                    "value": "Bueno-Sancho et al., 2017 B"
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS10"
+                                                  },
+                                                  "collector": {
+                                                    "value": "Yves Decroos"
+                                                  },
+                                                  "host": {
+                                                    "value": "JB Asano"
+                                                  },
+                                                  "country": {
+                                                    "value": "Belgium"
+                                                  },
+                                                  "location": {
+                                                    "value": "Tiegem"
+                                                  }
+                                                },
+                                                "branch_attrs": {}
+                                              },
+                                              {
+                                                "name": "NODE_0000026",
+                                                "node_attrs": {
+                                                  "div": 0.0014364739999999999,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS10"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.498
+                                                  },
+                                                  "collector": {
+                                                    "value": "Yves Decroos"
+                                                  },
+                                                  "host": {
+                                                    "value": "JB Asano"
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "14.0080",
+                                                    "node_attrs": {
+                                                      "div": 0.0014364789999999998,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "Other"
+                                                      },
+                                                      "collector": {
+                                                        "value": "A. Resweber"
+                                                      },
+                                                      "host": {
+                                                        "value": "Victo"
+                                                      },
+                                                      "country": {
+                                                        "value": "Germany"
+                                                      },
+                                                      "location": {
+                                                        "value": "Ruchheim"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "14.0095",
+                                                    "node_attrs": {
+                                                      "div": 0.0014364789999999998,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS10"
+                                                      },
+                                                      "collector": {
+                                                        "value": "Yves Decroos"
+                                                      },
+                                                      "host": {
+                                                        "value": "JB Asano"
+                                                      },
+                                                      "country": {
+                                                        "value": "Belgium"
+                                                      },
+                                                      "location": {
+                                                        "value": "Koksijde"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000027",
+                                            "node_attrs": {
+                                              "div": 0.00156021,
+                                              "author": {
+                                                "author": "Bueno-Sancho et al., 2017",
+                                                "value": "Bueno-Sancho et al., 2017 A"
+                                              },
+                                              "group": {
+                                                "value": "PstS10"
+                                              },
+                                              "confidence": {
+                                                "value": 0.932
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000028",
+                                                "node_attrs": {
+                                                  "div": 0.001576438,
+                                                  "author": {
+                                                    "author": "Bueno-Sancho et al., 2017",
+                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS10"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 0.772
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "14.0039",
+                                                    "node_attrs": {
+                                                      "div": 0.001576443,
+                                                      "author": {
+                                                        "author": "Bueno-Sancho et al., 2017",
+                                                        "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                        "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                        "value": "Bueno-Sancho et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS10"
+                                                      },
+                                                      "collector": {
+                                                        "value": "Prochnow: Rosie Bryson"
+                                                      },
+                                                      "host": {
+                                                        "value": "Opal"
+                                                      },
+                                                      "country": {
+                                                        "value": "Germany"
+                                                      },
+                                                      "location": {
+                                                        "value": "Hingste"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000029",
+                                                    "node_attrs": {
+                                                      "div": 0.0016882960000000002,
+                                                      "author": {
+                                                        "author": "Millus et al., 2015",
+                                                        "value": "Millus et al., 2015 A"
+                                                      },
+                                                      "group": {
+                                                        "value": "Other"
+                                                      },
+                                                      "confidence": {
+                                                        "value": 0.831
+                                                      }
+                                                    },
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "name": "US312/14",
+                                                        "node_attrs": {
+                                                          "div": 0.001788452,
+                                                          "author": {
+                                                            "author": "Millus et al., 2015",
+                                                            "title": "Race-Specific Adult-Plant Resistance in Winter Wheat to Stripe Rust and Characterization of Pathogen Virulence Patterns",
+                                                            "journal": "Phytopathology\u00ae (2015) 105:8",
+                                                            "value": "Millus et al., 2015 B"
+                                                          },
+                                                          "region": {
+                                                            "value": "North America"
+                                                          },
+                                                          "group": {
+                                                            "value": "Other"
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {}
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000030",
+                                                        "node_attrs": {
+                                                          "div": 0.0018912760000000001,
+                                                          "author": {
+                                                            "author": "Unknown",
+                                                            "value": "Unknown"
+                                                          },
+                                                          "group": {
+                                                            "value": "PstS13"
+                                                          },
+                                                          "confidence": {
+                                                            "value": 0.994
+                                                          }
+                                                        },
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "name": "DK15/16",
+                                                            "node_attrs": {
+                                                              "div": 0.0019045350000000002,
+                                                              "author": {
+                                                                "author": "Unknown",
+                                                                "value": "Unknown"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS13"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {}
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000031",
+                                                            "node_attrs": {
+                                                              "div": 0.001969406,
+                                                              "author": {
+                                                                "author": "Unknown",
+                                                                "value": "Unknown"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS13"
+                                                              },
+                                                              "confidence": {
+                                                                "value": 0.972
+                                                              }
+                                                            },
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "name": "IT83_17",
+                                                                "node_attrs": {
+                                                                  "div": 0.001972839,
+                                                                  "author": {
+                                                                    "author": "Unknown",
+                                                                    "value": "Unknown"
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS13"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Italy"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {}
+                                                              },
+                                                              {
+                                                                "name": "NODE_0000032",
+                                                                "node_attrs": {
+                                                                  "div": 0.0019747989999999997,
+                                                                  "author": {
+                                                                    "author": "Unknown",
+                                                                    "value": "Unknown"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS13"
+                                                                  },
+                                                                  "confidence": {
+                                                                    "value": 0.241
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {},
+                                                                "children": [
+                                                                  {
+                                                                    "name": "DK69_15",
+                                                                    "node_attrs": {
+                                                                      "div": 0.0019748039999999997,
+                                                                      "author": {
+                                                                        "author": "Unknown",
+                                                                        "value": "Unknown"
+                                                                      },
+                                                                      "region": {
+                                                                        "value": "Europe"
+                                                                      },
+                                                                      "group": {
+                                                                        "value": "PstS13"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "Denmark"
+                                                                      }
+                                                                    },
+                                                                    "branch_attrs": {}
+                                                                  },
+                                                                  {
+                                                                    "name": "DK10_16",
+                                                                    "node_attrs": {
+                                                                      "div": 0.0019748039999999997,
+                                                                      "author": {
+                                                                        "author": "Unknown",
+                                                                        "value": "Unknown"
+                                                                      },
+                                                                      "region": {
+                                                                        "value": "Europe"
+                                                                      },
+                                                                      "group": {
+                                                                        "value": "PstS13"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "Denmark"
+                                                                      }
+                                                                    },
+                                                                    "branch_attrs": {}
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000033",
+                                                "node_attrs": {
+                                                  "div": 0.002324265,
+                                                  "author": {
+                                                    "author": "Ali et al., 2017",
+                                                    "value": "Ali et al., 2017 A"
+                                                  },
+                                                  "group": {
+                                                    "value": "PstS5"
+                                                  },
+                                                  "confidence": {
+                                                    "value": 1.0
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "UZ14/10",
+                                                    "node_attrs": {
+                                                      "div": 0.002609873,
+                                                      "author": {
+                                                        "author": "Ali et al., 2017",
+                                                        "title": "Yellow Rust Epidemics Worldwide Were Caused by Pathogen Races from Divergent Genetic Lineages",
+                                                        "journal": "Front. Plant Sci. (2017) 8",
+                                                        "value": "Ali et al., 2017 B"
+                                                      },
+                                                      "region": {
+                                                        "value": "Asia"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS5"
+                                                      },
+                                                      "country": {
+                                                        "value": "Uzbekistan"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {}
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000034",
+                                                    "node_attrs": {
+                                                      "div": 0.0023753949999999998,
+                                                      "author": {
+                                                        "author": "Hovm\u00f8ller et al., 2016",
+                                                        "value": "Hovm\u00f8ller et al., 2016 A"
+                                                      },
+                                                      "group": {
+                                                        "value": "PstS7"
+                                                      },
+                                                      "confidence": {
+                                                        "value": 0.785
+                                                      }
+                                                    },
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000035",
+                                                        "node_attrs": {
+                                                          "div": 0.002542062,
+                                                          "author": {
+                                                            "author": "Hovm\u00f8ller et al., 2016",
+                                                            "value": "Hovm\u00f8ller et al., 2016 A"
+                                                          },
+                                                          "group": {
+                                                            "value": "PstS9"
+                                                          },
+                                                          "confidence": {
+                                                            "value": 1.0
+                                                          }
+                                                        },
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "name": "UZ189/16",
+                                                            "node_attrs": {
+                                                              "div": 0.002962448,
+                                                              "author": {
+                                                                "author": "Ali et al., 2017",
+                                                                "title": "Yellow Rust Epidemics Worldwide Were Caused by Pathogen Races from Divergent Genetic Lineages",
+                                                                "journal": "Front. Plant Sci. (2017) 8",
+                                                                "value": "Ali et al., 2017 B"
+                                                              },
+                                                              "region": {
+                                                                "value": "Asia"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS9"
+                                                              },
+                                                              "country": {
+                                                                "value": "Uzbekistan"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {}
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000036",
+                                                            "node_attrs": {
+                                                              "div": 0.0027285029999999997,
+                                                              "author": {
+                                                                "author": "Hovm\u00f8ller et al., 2016",
+                                                                "value": "Hovm\u00f8ller et al., 2016 A"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS8"
+                                                              },
+                                                              "confidence": {
+                                                                "value": 1.0
+                                                              }
+                                                            },
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "name": "14.0027",
+                                                                "node_attrs": {
+                                                                  "div": 0.0027630429999999997,
+                                                                  "author": {
+                                                                    "author": "Bueno-Sancho et al., 2017",
+                                                                    "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                                    "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                                    "value": "Bueno-Sancho et al., 2017 B"
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS8"
+                                                                  },
+                                                                  "collector": {
+                                                                    "value": "Szymon Laczny"
+                                                                  },
+                                                                  "host": {
+                                                                    "value": "Princeps"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Poland"
+                                                                  },
+                                                                  "location": {
+                                                                    "value": "Sroda Wielko"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {}
+                                                              },
+                                                              {
+                                                                "name": "DK52/16",
+                                                                "node_attrs": {
+                                                                  "div": 0.0027285079999999997,
+                                                                  "author": {
+                                                                    "author": "Hovm\u00f8ller et al., 2016",
+                                                                    "title": "Replacement of the European wheat yellow rust population by new races from the centre of diversity in the near-Himalayan region",
+                                                                    "journal": "Plant Pathology (2016) 65",
+                                                                    "value": "Hovm\u00f8ller et al., 2016 B"
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS8"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Denmark"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {}
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000037",
+                                                        "node_attrs": {
+                                                          "div": 0.002453131,
+                                                          "author": {
+                                                            "author": "Hovm\u00f8ller et al., 2016",
+                                                            "value": "Hovm\u00f8ller et al., 2016 A"
+                                                          },
+                                                          "group": {
+                                                            "value": "PstS7"
+                                                          },
+                                                          "confidence": {
+                                                            "value": 0.936
+                                                          }
+                                                        },
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "name": "SE427/17",
+                                                            "node_attrs": {
+                                                              "div": 0.002453136,
+                                                              "author": {
+                                                                "author": "Hovm\u00f8ller et al., 2016",
+                                                                "title": "Replacement of the European wheat yellow rust population by new races from the centre of diversity in the near-Himalayan region",
+                                                                "journal": "Plant Pathology (2016) 65",
+                                                                "value": "Hovm\u00f8ller et al., 2016 B"
+                                                              },
+                                                              "region": {
+                                                                "value": "Europe"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS7"
+                                                              },
+                                                              "country": {
+                                                                "value": "Sweden"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {}
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000038",
+                                                            "node_attrs": {
+                                                              "div": 0.002453136,
+                                                              "author": {
+                                                                "author": "Hovm\u00f8ller et al., 2016",
+                                                                "value": "Hovm\u00f8ller et al., 2016 A"
+                                                              },
+                                                              "group": {
+                                                                "value": "PstS7"
+                                                              },
+                                                              "confidence": {
+                                                                "value": 0.827
+                                                              }
+                                                            },
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "name": "DK14/16",
+                                                                "node_attrs": {
+                                                                  "div": 0.00246751,
+                                                                  "author": {
+                                                                    "author": "Hovm\u00f8ller et al., 2016",
+                                                                    "title": "Replacement of the European wheat yellow rust population by new races from the centre of diversity in the near-Himalayan region",
+                                                                    "journal": "Plant Pathology (2016) 65",
+                                                                    "value": "Hovm\u00f8ller et al., 2016 B"
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "Europe"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS7"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Denmark"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {}
+                                                              },
+                                                              {
+                                                                "name": "NODE_0000039",
+                                                                "node_attrs": {
+                                                                  "div": 0.0025666589999999998,
+                                                                  "author": {
+                                                                    "author": "Bueno-Sancho et al., 2017",
+                                                                    "value": "Bueno-Sancho et al., 2017 A"
+                                                                  },
+                                                                  "group": {
+                                                                    "value": "PstS7"
+                                                                  },
+                                                                  "confidence": {
+                                                                    "value": 1.0
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {},
+                                                                "children": [
+                                                                  {
+                                                                    "name": "NODE_0000040",
+                                                                    "node_attrs": {
+                                                                      "div": 0.0025666639999999998,
+                                                                      "author": {
+                                                                        "author": "Hubbard et al., 2015",
+                                                                        "value": "Hubbard et al., 2015 A"
+                                                                      },
+                                                                      "group": {
+                                                                        "value": "France 1988-2013"
+                                                                      },
+                                                                      "confidence": {
+                                                                        "value": 0.636
+                                                                      }
+                                                                    },
+                                                                    "branch_attrs": {},
+                                                                    "children": [
+                                                                      {
+                                                                        "name": "FW1",
+                                                                        "node_attrs": {
+                                                                          "div": 0.0025666699999999996,
+                                                                          "author": {
+                                                                            "author": "Hubbard et al., 2015",
+                                                                            "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                                                                            "journal": "Genome Biol. (1): 23 (2015)",
+                                                                            "value": "Hubbard et al., 2015 B"
+                                                                          },
+                                                                          "region": {
+                                                                            "value": "Europe"
+                                                                          },
+                                                                          "group": {
+                                                                            "value": "France 1988-2013"
+                                                                          },
+                                                                          "country": {
+                                                                            "value": "France"
+                                                                          }
+                                                                        },
+                                                                        "branch_attrs": {}
+                                                                      },
+                                                                      {
+                                                                        "name": "11/08",
+                                                                        "node_attrs": {
+                                                                          "div": 0.0025666689999999997,
+                                                                          "author": {
+                                                                            "author": "Hubbard et al., 2015",
+                                                                            "title": "Field pathogenomics reveals the emergence of a diverse wheat yellow rust population",
+                                                                            "journal": "Genome Biol. (1): 23 (2015)",
+                                                                            "value": "Hubbard et al., 2015 B"
+                                                                          },
+                                                                          "region": {
+                                                                            "value": "Europe"
+                                                                          },
+                                                                          "group": {
+                                                                            "value": "UK 1978-2011"
+                                                                          },
+                                                                          "host": {
+                                                                            "value": "Warrior"
+                                                                          },
+                                                                          "country": {
+                                                                            "value": "UK"
+                                                                          },
+                                                                          "location": {
+                                                                            "value": "Lincolnshire"
+                                                                          }
+                                                                        },
+                                                                        "branch_attrs": {}
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "name": "NODE_0000041",
+                                                                    "node_attrs": {
+                                                                      "div": 0.002568731,
+                                                                      "author": {
+                                                                        "author": "Bueno-Sancho et al., 2017",
+                                                                        "value": "Bueno-Sancho et al., 2017 A"
+                                                                      },
+                                                                      "group": {
+                                                                        "value": "PstS7"
+                                                                      },
+                                                                      "confidence": {
+                                                                        "value": 0.821
+                                                                      },
+                                                                      "collector": {
+                                                                        "value": "Szymon Laczny"
+                                                                      },
+                                                                      "host": {
+                                                                        "value": "Legenda"
+                                                                      }
+                                                                    },
+                                                                    "branch_attrs": {},
+                                                                    "children": [
+                                                                      {
+                                                                        "name": "14.0002",
+                                                                        "node_attrs": {
+                                                                          "div": 0.002568736,
+                                                                          "author": {
+                                                                            "author": "Bueno-Sancho et al., 2017",
+                                                                            "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                                            "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                                            "value": "Bueno-Sancho et al., 2017 B"
+                                                                          },
+                                                                          "region": {
+                                                                            "value": "Europe"
+                                                                          },
+                                                                          "group": {
+                                                                            "value": "PstS7"
+                                                                          },
+                                                                          "collector": {
+                                                                            "value": "Vaclav Sklenar"
+                                                                          },
+                                                                          "host": {
+                                                                            "value": "Tilman"
+                                                                          },
+                                                                          "country": {
+                                                                            "value": "Czech Republic"
+                                                                          },
+                                                                          "location": {
+                                                                            "value": "Rokytnice"
+                                                                          }
+                                                                        },
+                                                                        "branch_attrs": {}
+                                                                      },
+                                                                      {
+                                                                        "name": "14.0026",
+                                                                        "node_attrs": {
+                                                                          "div": 0.002568736,
+                                                                          "author": {
+                                                                            "author": "Bueno-Sancho et al., 2017",
+                                                                            "title": "Pathogenomic Analysis of Wheat Yellow Rust Lineages Detects Seasonal Variation and Host Specificity",
+                                                                            "journal": "Genome Biol Evol (12), 3282-3296 (2017)",
+                                                                            "value": "Bueno-Sancho et al., 2017 B"
+                                                                          },
+                                                                          "region": {
+                                                                            "value": "Europe"
+                                                                          },
+                                                                          "group": {
+                                                                            "value": "PstS7"
+                                                                          },
+                                                                          "collector": {
+                                                                            "value": "Szymon Laczny"
+                                                                          },
+                                                                          "host": {
+                                                                            "value": "Legenda"
+                                                                          },
+                                                                          "country": {
+                                                                            "value": "Poland"
+                                                                          },
+                                                                          "location": {
+                                                                            "value": "Sroda Wielko"
+                                                                          }
+                                                                        },
+                                                                        "branch_attrs": {}
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
