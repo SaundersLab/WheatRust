@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Analysis of worldwide wheat yellow and stem rust samples",
-    "updated": "2024-03-04",
+    "updated": "2024-04-09",
     "maintainers": [
       {
         "name": "Loizos Savva and Diane Saunders",
@@ -15,7 +15,7 @@
     "colorings": [
       {
         "key": "group",
-        "title": "genetic group",
+        "title": "Genetic Group",
         "type": "categorical",
         "scale": [
           [
@@ -142,7 +142,7 @@
       },
       {
         "key": "country",
-        "title": "country",
+        "title": "Country",
         "type": "categorical",
         "scale": [
           [
@@ -245,7 +245,7 @@
       },
       {
         "key": "region",
-        "title": "region",
+        "title": "Region",
         "type": "categorical",
         "scale": [
           [
@@ -275,6 +275,65 @@
         ]
       },
       {
+        "key": "clade",
+        "title": "Clade",
+        "type": "categorical",
+        "scale": [
+          [
+            "A",
+            "#FCE5CD"
+          ],
+          [
+            "B",
+            "#D9EAD3"
+          ],
+          [
+            "C",
+            "#D0E0E3"
+          ],
+          [
+            "D",
+            "#D9D2E9"
+          ],
+          [
+            "E",
+            "#EAD1DC"
+          ],
+          [
+            "F",
+            "#BCBCBC"
+          ],
+          [
+            "G",
+            "#9FC5E8"
+          ],
+          [
+            "H",
+            "#FFF2CC"
+          ],
+          [
+            "I",
+            "#B6D7A8"
+          ],
+          [
+            "J",
+            "#D5A6BD"
+          ],
+          [
+            "K",
+            "#FFE599"
+          ],
+          [
+            "L",
+            "#A2C4C9"
+          ],
+          [
+            "M",
+            "#F4CCCC"
+          ]
+        ]
+      },
+      {
         "key": "confidence",
         "title": "confidence",
         "type": "continuous"
@@ -292,115 +351,111 @@
       {
         "key": "country",
         "demes": {
-          "Eritrea": {
-            "latitude": 15.9500319,
-            "longitude": 37.9999668
-          },
-          "Denmark": {
-            "latitude": 56.0,
-            "longitude": 10.0
-          },
           "Mexico": {
             "latitude": 19.4325301,
             "longitude": -99.1332101
-          },
-          "Czechia": {
-            "latitude": 49.817493,
-            "longitude": 15.472962
-          },
-          "South Africa": {
-            "latitude": -30.559483,
-            "longitude": 22.937506
-          },
-          "Uganda": {
-            "latitude": 1.373333,
-            "longitude": 32.290276
-          },
-          "Brazil": {
-            "latitude": -14.235004,
-            "longitude": -51.925282
-          },
-          "Ethiopia": {
-            "latitude": 9.145,
-            "longitude": 40.489674
-          },
-          "Morocco": {
-            "latitude": 31.791702,
-            "longitude": -7.09262
-          },
-          "Sweden": {
-            "latitude": 60.128162,
-            "longitude": 18.643501
-          },
-          "USA": {
-            "latitude": 37.09024,
-            "longitude": -95.712891
-          },
-          "Israel": {
-            "latitude": 31.5,
-            "longitude": 34.75
-          },
-          "Zimbabwe": {
-            "latitude": -19.307486,
-            "longitude": 29.7968377
-          },
-          "Hungary": {
-            "latitude": 47.0,
-            "longitude": 20.0
-          },
-          "Kenya": {
-            "latitude": -0.023559,
-            "longitude": 37.906193
-          },
-          "Uruguay": {
-            "latitude": -32.522778,
-            "longitude": -55.765835
-          },
-          "Italy": {
-            "latitude": 42.6384261,
-            "longitude": 12.674297
           },
           "Australia": {
             "latitude": -24.7761085,
             "longitude": 134.755
           },
-          "Iran": {
-            "latitude": 32.0,
-            "longitude": 53.0
+          "South Africa": {
+            "latitude": -30.559483,
+            "longitude": 22.937506
           },
           "Germany": {
             "latitude": 51.165691,
             "longitude": 10.451526
           },
-          "Madagascar": {
-            "latitude": -18.766947,
-            "longitude": 46.869106
+          "Denmark": {
+            "latitude": 56.0,
+            "longitude": 10.0
           },
-          "Pakistan": {
-            "latitude": 30.0,
-            "longitude": 70.0
-          },
-          "UK": {
-            "latitude": 55.378052,
-            "longitude": -3.435973
+          "Zimbabwe": {
+            "latitude": -19.307486,
+            "longitude": 29.7968377
           },
           "Tanzania": {
             "latitude": -6.0,
             "longitude": 35.0
           },
+          "Morocco": {
+            "latitude": 31.791702,
+            "longitude": -7.09262
+          },
+          "Pakistan": {
+            "latitude": 30.0,
+            "longitude": 70.0
+          },
+          "Hungary": {
+            "latitude": 47.0,
+            "longitude": 20.0
+          },
+          "Iran": {
+            "latitude": 32.0,
+            "longitude": 53.0
+          },
+          "Czechia": {
+            "latitude": 49.817493,
+            "longitude": 15.472962
+          },
+          "Brazil": {
+            "latitude": -14.235004,
+            "longitude": -51.925282
+          },
+          "Italy": {
+            "latitude": 42.6384261,
+            "longitude": 12.674297
+          },
+          "Madagascar": {
+            "latitude": -18.766947,
+            "longitude": 46.869106
+          },
+          "UK": {
+            "latitude": 55.378052,
+            "longitude": -3.435973
+          },
+          "Uganda": {
+            "latitude": 1.373333,
+            "longitude": 32.290276
+          },
           "Turkey": {
             "latitude": 38.963745,
             "longitude": 35.24332
+          },
+          "Israel": {
+            "latitude": 31.5,
+            "longitude": 34.75
+          },
+          "Kenya": {
+            "latitude": -0.023559,
+            "longitude": 37.906193
+          },
+          "USA": {
+            "latitude": 37.09024,
+            "longitude": -95.712891
+          },
+          "Ethiopia": {
+            "latitude": 9.145,
+            "longitude": 40.489674
+          },
+          "Sweden": {
+            "latitude": 60.128162,
+            "longitude": 18.643501
+          },
+          "Uruguay": {
+            "latitude": -32.522778,
+            "longitude": -55.765835
+          },
+          "Eritrea": {
+            "latitude": 15.9500319,
+            "longitude": 37.9999668
           }
         }
       },
       {
         "key": "region",
         "demes": {
-          "Oceania": {
-            "latitude": -25.0562891,
-            "longitude": 152.008576
-          },
           "South America": {
             "latitude": -13.083583,
             "longitude": -58.470721
@@ -408,6 +463,10 @@
           "Africa": {
             "latitude": 4.070194,
             "longitude": 21.824559
+          },
+          "Oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
           },
           "Europe": {
             "latitude": 49.646237,
@@ -464,11 +523,14 @@
                 "author": "Lewis et al. 2018",
                 "value": "Lewis et al. 2018"
               },
-              "country": {
-                "value": "South Africa"
-              },
               "region": {
                 "value": "Africa"
+              },
+              "clade": {
+                "value": "A"
+              },
+              "country": {
+                "value": "South Africa"
               },
               "host": {
                 "value": "Wheat"
@@ -501,11 +563,14 @@
                     "author": "Lewis et al. 2018",
                     "value": "Lewis et al. 2018"
                   },
-                  "country": {
-                    "value": "South Africa"
-                  },
                   "region": {
                     "value": "Africa"
+                  },
+                  "clade": {
+                    "value": "A"
+                  },
+                  "country": {
+                    "value": "South Africa"
                   },
                   "host": {
                     "value": "Triticale"
@@ -538,11 +603,14 @@
                         "author": "Lewis et al. 2018",
                         "value": "Lewis et al. 2018"
                       },
-                      "country": {
-                        "value": "South Africa"
-                      },
                       "region": {
                         "value": "Africa"
+                      },
+                      "clade": {
+                        "value": "A"
+                      },
+                      "country": {
+                        "value": "South Africa"
                       },
                       "host": {
                         "value": "Triticale"
@@ -575,11 +643,14 @@
                             "author": "Lewis et al. 2018",
                             "value": "Lewis et al. 2018"
                           },
-                          "country": {
-                            "value": "South Africa"
-                          },
                           "region": {
                             "value": "Africa"
+                          },
+                          "clade": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "South Africa"
                           },
                           "host": {
                             "value": "Triticale"
@@ -595,11 +666,14 @@
                             "author": "Lewis et al. 2018",
                             "value": "Lewis et al. 2018"
                           },
-                          "country": {
-                            "value": "South Africa"
-                          },
                           "region": {
                             "value": "Africa"
+                          },
+                          "clade": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "South Africa"
                           },
                           "host": {
                             "value": "Barley"
@@ -657,11 +731,14 @@
                     "author": "Guo et al. 2022",
                     "value": "Guo et al. 2022"
                   },
-                  "country": {
-                    "value": "Turkey"
-                  },
                   "region": {
                     "value": "Asia"
+                  },
+                  "clade": {
+                    "value": "A"
+                  },
+                  "country": {
+                    "value": "Turkey"
                   },
                   "host": {
                     "value": "Wheat"
@@ -694,11 +771,14 @@
                         "author": "Guo et al. 2022",
                         "value": "Guo et al. 2022"
                       },
-                      "country": {
-                        "value": "Ethiopia"
-                      },
                       "region": {
                         "value": "Africa"
+                      },
+                      "clade": {
+                        "value": "A"
+                      },
+                      "country": {
+                        "value": "Ethiopia"
                       },
                       "host": {
                         "value": "Wheat"
@@ -731,11 +811,14 @@
                             "author": "Lewis et al. 2018",
                             "value": "Lewis et al. 2018"
                           },
-                          "country": {
-                            "value": "South Africa"
-                          },
                           "region": {
                             "value": "Africa"
+                          },
+                          "clade": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "South Africa"
                           },
                           "host": {
                             "value": "Wheat"
@@ -768,11 +851,14 @@
                                 "author": "Chen et al. 2017",
                                 "value": "Chen et al. 2017"
                               },
-                              "country": {
-                                "value": "Australia"
-                              },
                               "region": {
                                 "value": "Oceania"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Australia"
                               },
                               "host": {
                                 "value": "Triticale"
@@ -788,11 +874,14 @@
                                 "author": "Chen et al. 2017",
                                 "value": "Chen et al. 2017"
                               },
-                              "country": {
-                                "value": "Australia"
-                              },
                               "region": {
                                 "value": "Oceania"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Australia"
                               },
                               "host": {
                                 "value": "Triticale"
@@ -833,11 +922,14 @@
                     "author": "Lewis et al. 2018",
                     "value": "Lewis et al. 2018"
                   },
-                  "country": {
-                    "value": "Czechia"
-                  },
                   "region": {
                     "value": "Europe"
+                  },
+                  "clade": {
+                    "value": "A"
+                  },
+                  "country": {
+                    "value": "Czechia"
                   },
                   "host": {
                     "value": "Wheat"
@@ -887,11 +979,14 @@
                             "author": "Lewis et al. 2018",
                             "value": "Lewis et al. 2018"
                           },
-                          "country": {
-                            "value": "South Africa"
-                          },
                           "region": {
                             "value": "Africa"
+                          },
+                          "clade": {
+                            "value": "A"
+                          },
+                          "country": {
+                            "value": "South Africa"
                           },
                           "host": {
                             "value": "Triticale"
@@ -924,14 +1019,17 @@
                                 "author": "Unknown",
                                 "value": "Unknown"
                               },
-                              "country": {
-                                "value": "Czechia"
-                              },
                               "region": {
                                 "value": "Europe"
                               },
                               "group": {
                                 "value": "HFCQ"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Czechia"
                               }
                             },
                             "branch_attrs": {}
@@ -944,14 +1042,17 @@
                                 "author": "Unknown",
                                 "value": "Unknown"
                               },
-                              "country": {
-                                "value": "Kenya"
-                              },
                               "region": {
                                 "value": "Africa"
                               },
                               "group": {
                                 "value": "TKRJ"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Kenya"
                               }
                             },
                             "branch_attrs": {}
@@ -1002,11 +1103,14 @@
                                 "author": "Li et al. 2019",
                                 "value": "Li et al. 2019"
                               },
-                              "country": {
-                                "value": "Australia"
-                              },
                               "region": {
                                 "value": "Oceania"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Australia"
                               },
                               "host": {
                                 "value": "Wheat"
@@ -1039,11 +1143,14 @@
                                     "author": "Chen et al. 2017",
                                     "value": "Chen et al. 2017"
                                   },
-                                  "country": {
-                                    "value": "Australia"
-                                  },
                                   "region": {
                                     "value": "Oceania"
+                                  },
+                                  "clade": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "Australia"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1059,11 +1166,14 @@
                                     "author": "Chen et al. 2017",
                                     "value": "Chen et al. 2017"
                                   },
-                                  "country": {
-                                    "value": "Australia"
-                                  },
                                   "region": {
                                     "value": "Oceania"
+                                  },
+                                  "clade": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "Australia"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1100,11 +1210,14 @@
                                 "author": "Li et al. 2019",
                                 "value": "Li et al. 2019"
                               },
-                              "country": {
-                                "value": "Australia"
-                              },
                               "region": {
                                 "value": "Oceania"
+                              },
+                              "clade": {
+                                "value": "A"
+                              },
+                              "country": {
+                                "value": "Australia"
                               },
                               "host": {
                                 "value": "Wheat"
@@ -1137,11 +1250,14 @@
                                     "author": "Chen et al. 2017",
                                     "value": "Chen et al. 2017"
                                   },
-                                  "country": {
-                                    "value": "Australia"
-                                  },
                                   "region": {
                                     "value": "Oceania"
+                                  },
+                                  "clade": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "Australia"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1157,11 +1273,14 @@
                                     "author": "Chen et al. 2017",
                                     "value": "Chen et al. 2017"
                                   },
-                                  "country": {
-                                    "value": "Australia"
-                                  },
                                   "region": {
                                     "value": "Oceania"
+                                  },
+                                  "clade": {
+                                    "value": "A"
+                                  },
+                                  "country": {
+                                    "value": "Australia"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1206,14 +1325,17 @@
                 "author": "Unknown",
                 "value": "Unknown"
               },
-              "country": {
-                "value": "Ethiopia"
-              },
               "region": {
                 "value": "Africa"
               },
               "group": {
                 "value": "GBCS"
+              },
+              "clade": {
+                "value": "B"
+              },
+              "country": {
+                "value": "Ethiopia"
               }
             },
             "branch_attrs": {}
@@ -1260,11 +1382,14 @@
                         "author": "Lewis et al. 2018",
                         "value": "Lewis et al. 2018"
                       },
-                      "country": {
-                        "value": "Czechia"
-                      },
                       "region": {
                         "value": "Europe"
+                      },
+                      "clade": {
+                        "value": "B"
+                      },
+                      "country": {
+                        "value": "Czechia"
                       },
                       "host": {
                         "value": "Wheat"
@@ -1280,11 +1405,14 @@
                         "author": "Lewis et al. 2018",
                         "value": "Lewis et al. 2018"
                       },
-                      "country": {
-                        "value": "Czechia"
-                      },
                       "region": {
                         "value": "Europe"
+                      },
+                      "clade": {
+                        "value": "B"
+                      },
+                      "country": {
+                        "value": "Czechia"
                       },
                       "host": {
                         "value": "Wheat"
@@ -1358,14 +1486,17 @@
                                     "author": "Unknown",
                                     "value": "Unknown"
                                   },
-                                  "country": {
-                                    "value": "USA"
-                                  },
                                   "region": {
                                     "value": "North America"
                                   },
                                   "group": {
                                     "value": "QFCSC"
+                                  },
+                                  "clade": {
+                                    "value": "C"
+                                  },
+                                  "country": {
+                                    "value": "USA"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1378,11 +1509,14 @@
                                     "author": "Guo et al. 2022",
                                     "value": "Guo et al. 2022"
                                   },
-                                  "country": {
-                                    "value": "USA"
-                                  },
                                   "region": {
                                     "value": "North America"
+                                  },
+                                  "clade": {
+                                    "value": "C"
+                                  },
+                                  "country": {
+                                    "value": "USA"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1417,14 +1551,17 @@
                                     "author": "Lewis et al. 2018",
                                     "value": "Lewis et al. 2018"
                                   },
-                                  "country": {
-                                    "value": "USA"
-                                  },
                                   "region": {
                                     "value": "North America"
                                   },
                                   "group": {
                                     "value": "QCCJB"
+                                  },
+                                  "clade": {
+                                    "value": "C"
+                                  },
+                                  "country": {
+                                    "value": "USA"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1457,11 +1594,14 @@
                                         "author": "Guo et al. 2022",
                                         "value": "Guo et al. 2022"
                                       },
-                                      "country": {
-                                        "value": "USA"
-                                      },
                                       "region": {
                                         "value": "North America"
+                                      },
+                                      "clade": {
+                                        "value": "C"
+                                      },
+                                      "country": {
+                                        "value": "USA"
                                       },
                                       "host": {
                                         "value": "Wheat"
@@ -1477,14 +1617,17 @@
                                         "author": "Unknown",
                                         "value": "Unknown"
                                       },
-                                      "country": {
-                                        "value": "Zimbabwe"
-                                      },
                                       "region": {
                                         "value": "Africa"
                                       },
                                       "group": {
                                         "value": "RKBJ"
+                                      },
+                                      "clade": {
+                                        "value": "C"
+                                      },
+                                      "country": {
+                                        "value": "Zimbabwe"
                                       }
                                     },
                                     "branch_attrs": {}
@@ -1531,11 +1674,14 @@
                                     "author": "Upadhyaya et al. 2015",
                                     "value": "Upadhyaya et al. 2015"
                                   },
-                                  "country": {
-                                    "value": "Australia"
-                                  },
                                   "region": {
                                     "value": "Oceania"
+                                  },
+                                  "clade": {
+                                    "value": "C"
+                                  },
+                                  "country": {
+                                    "value": "Australia"
                                   },
                                   "host": {
                                     "value": "Wheat"
@@ -1568,14 +1714,17 @@
                                         "author": "Unknown",
                                         "value": "Unknown"
                                       },
-                                      "country": {
-                                        "value": "USA"
-                                      },
                                       "region": {
                                         "value": "North America"
                                       },
                                       "group": {
                                         "value": "MCCFC"
+                                      },
+                                      "clade": {
+                                        "value": "C"
+                                      },
+                                      "country": {
+                                        "value": "USA"
                                       }
                                     },
                                     "branch_attrs": {}
@@ -1588,14 +1737,17 @@
                                         "author": "Unknown",
                                         "value": "Unknown"
                                       },
-                                      "country": {
-                                        "value": "USA"
-                                      },
                                       "region": {
                                         "value": "North America"
                                       },
                                       "group": {
                                         "value": "MCCD"
+                                      },
+                                      "clade": {
+                                        "value": "C"
+                                      },
+                                      "country": {
+                                        "value": "USA"
                                       }
                                     },
                                     "branch_attrs": {}
@@ -1626,14 +1778,17 @@
                                     "author": "Unknown",
                                     "value": "Unknown"
                                   },
-                                  "country": {
-                                    "value": "USA"
-                                  },
                                   "region": {
                                     "value": "North America"
                                   },
                                   "group": {
                                     "value": "QCCQ"
+                                  },
+                                  "clade": {
+                                    "value": "C"
+                                  },
+                                  "country": {
+                                    "value": "USA"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1660,14 +1815,17 @@
                                         "author": "Unknown",
                                         "value": "Unknown"
                                       },
-                                      "country": {
-                                        "value": "Morocco"
-                                      },
                                       "region": {
                                         "value": "Africa"
                                       },
                                       "group": {
                                         "value": "RHTS"
+                                      },
+                                      "clade": {
+                                        "value": "C"
+                                      },
+                                      "country": {
+                                        "value": "Morocco"
                                       }
                                     },
                                     "branch_attrs": {}
@@ -1694,14 +1852,17 @@
                                             "author": "Unknown",
                                             "value": "Unknown"
                                           },
-                                          "country": {
-                                            "value": "Iran"
-                                          },
                                           "region": {
                                             "value": "Asia"
                                           },
                                           "group": {
                                             "value": "HPCS"
+                                          },
+                                          "clade": {
+                                            "value": "C"
+                                          },
+                                          "country": {
+                                            "value": "Iran"
                                           }
                                         },
                                         "branch_attrs": {}
@@ -1714,11 +1875,14 @@
                                             "author": "Unknown",
                                             "value": "Unknown"
                                           },
-                                          "country": {
-                                            "value": "Kenya"
-                                          },
                                           "region": {
                                             "value": "Africa"
+                                          },
+                                          "clade": {
+                                            "value": "C"
+                                          },
+                                          "country": {
+                                            "value": "Kenya"
                                           }
                                         },
                                         "branch_attrs": {}
@@ -1783,14 +1947,17 @@
                                     "author": "Unknown",
                                     "value": "Unknown"
                                   },
-                                  "country": {
-                                    "value": "USA"
-                                  },
                                   "region": {
                                     "value": "North America"
                                   },
                                   "group": {
                                     "value": "RKQQC"
+                                  },
+                                  "clade": {
+                                    "value": "E"
+                                  },
+                                  "country": {
+                                    "value": "USA"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1820,11 +1987,14 @@
                                         "author": "Guo et al. 2022",
                                         "value": "Guo et al. 2022"
                                       },
-                                      "country": {
-                                        "value": "USA"
-                                      },
                                       "region": {
                                         "value": "North America"
+                                      },
+                                      "clade": {
+                                        "value": "E"
+                                      },
+                                      "country": {
+                                        "value": "USA"
                                       },
                                       "host": {
                                         "value": "Wheat"
@@ -1840,14 +2010,17 @@
                                         "author": "Lewis et al. 2018",
                                         "value": "Lewis et al. 2018"
                                       },
-                                      "country": {
-                                        "value": "Mexico"
-                                      },
                                       "region": {
                                         "value": "North America"
                                       },
                                       "group": {
                                         "value": "RKQ "
+                                      },
+                                      "clade": {
+                                        "value": "E"
+                                      },
+                                      "country": {
+                                        "value": "Mexico"
                                       },
                                       "host": {
                                         "value": "Bread wheat"
@@ -1898,11 +2071,14 @@
                                         "author": "Lewis et al. 2018",
                                         "value": "Lewis et al. 2018"
                                       },
-                                      "country": {
-                                        "value": "Uruguay"
-                                      },
                                       "region": {
                                         "value": "South America"
+                                      },
+                                      "clade": {
+                                        "value": "E"
+                                      },
+                                      "country": {
+                                        "value": "Uruguay"
                                       },
                                       "host": {
                                         "value": "Wheat"
@@ -1918,11 +2094,14 @@
                                         "author": "Lewis et al. 2018",
                                         "value": "Lewis et al. 2018"
                                       },
-                                      "country": {
-                                        "value": "Uruguay"
-                                      },
                                       "region": {
                                         "value": "South America"
+                                      },
+                                      "clade": {
+                                        "value": "E"
+                                      },
+                                      "country": {
+                                        "value": "Uruguay"
                                       },
                                       "host": {
                                         "value": "Wheat"
@@ -1954,14 +2133,17 @@
                                         "author": "Unknown",
                                         "value": "Unknown"
                                       },
-                                      "country": {
-                                        "value": "USA"
-                                      },
                                       "region": {
                                         "value": "North America"
                                       },
                                       "group": {
                                         "value": "RHTS"
+                                      },
+                                      "clade": {
+                                        "value": "E"
+                                      },
+                                      "country": {
+                                        "value": "USA"
                                       }
                                     },
                                     "branch_attrs": {}
@@ -1988,11 +2170,14 @@
                                             "author": "Guo et al. 2022",
                                             "value": "Guo et al. 2022"
                                           },
-                                          "country": {
-                                            "value": "USA"
-                                          },
                                           "region": {
                                             "value": "North America"
+                                          },
+                                          "clade": {
+                                            "value": "E"
+                                          },
+                                          "country": {
+                                            "value": "USA"
                                           },
                                           "host": {
                                             "value": "Wheat"
@@ -2012,7 +2197,7 @@
                                             "value": 0.953
                                           },
                                           "group": {
-                                            "value": "TMLK"
+                                            "value": "TPMKC"
                                           }
                                         },
                                         "branch_attrs": {},
@@ -2025,14 +2210,17 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "USA"
-                                              },
                                               "region": {
                                                 "value": "North America"
                                               },
                                               "group": {
                                                 "value": "TPMKC"
+                                              },
+                                              "clade": {
+                                                "value": "E"
+                                              },
+                                              "country": {
+                                                "value": "USA"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -2045,14 +2233,17 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "USA"
-                                              },
                                               "region": {
                                                 "value": "North America"
                                               },
                                               "group": {
                                                 "value": "TMLK"
+                                              },
+                                              "clade": {
+                                                "value": "E"
+                                              },
+                                              "country": {
+                                                "value": "USA"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -2089,11 +2280,14 @@
                                 "author": "Lewis et al. 2018",
                                 "value": "Lewis et al. 2018"
                               },
-                              "country": {
-                                "value": "Hungary"
-                              },
                               "region": {
                                 "value": "Europe"
+                              },
+                              "clade": {
+                                "value": "D"
+                              },
+                              "country": {
+                                "value": "Hungary"
                               },
                               "host": {
                                 "value": "Wheat"
@@ -2165,14 +2359,17 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "Italy"
-                                              },
                                               "region": {
                                                 "value": "Europe"
                                               },
                                               "group": {
                                                 "value": "GHCS"
+                                              },
+                                              "clade": {
+                                                "value": "F"
+                                              },
+                                              "country": {
+                                                "value": "Italy"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -2185,11 +2382,14 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "Morocco"
-                                              },
                                               "region": {
                                                 "value": "Africa"
+                                              },
+                                              "clade": {
+                                                "value": "F"
+                                              },
+                                              "country": {
+                                                "value": "Morocco"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -2232,11 +2432,14 @@
                                                     "author": "Guo et al. 2022",
                                                     "value": "Guo et al. 2022"
                                                   },
-                                                  "country": {
-                                                    "value": "Kenya"
-                                                  },
                                                   "region": {
                                                     "value": "Africa"
+                                                  },
+                                                  "clade": {
+                                                    "value": "F"
+                                                  },
+                                                  "country": {
+                                                    "value": "Kenya"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -2252,14 +2455,17 @@
                                                     "author": "Unknown",
                                                     "value": "Unknown"
                                                   },
-                                                  "country": {
-                                                    "value": "Kenya"
-                                                  },
                                                   "region": {
                                                     "value": "Africa"
                                                   },
                                                   "group": {
                                                     "value": "JCMQ"
+                                                  },
+                                                  "clade": {
+                                                    "value": "F"
+                                                  },
+                                                  "country": {
+                                                    "value": "Kenya"
                                                   }
                                                 },
                                                 "branch_attrs": {}
@@ -2291,11 +2497,14 @@
                                                     "author": "Lewis et al. 2018",
                                                     "value": "Lewis et al. 2018"
                                                   },
-                                                  "country": {
-                                                    "value": "Iran"
-                                                  },
                                                   "region": {
                                                     "value": "Asia"
+                                                  },
+                                                  "clade": {
+                                                    "value": "F"
+                                                  },
+                                                  "country": {
+                                                    "value": "Iran"
                                                   },
                                                   "host": {
                                                     "value": "Bread wheat"
@@ -2328,11 +2537,14 @@
                                                         "author": "Guo et al. 2022",
                                                         "value": "Guo et al. 2022"
                                                       },
-                                                      "country": {
-                                                        "value": "Kenya"
-                                                      },
                                                       "region": {
                                                         "value": "Africa"
+                                                      },
+                                                      "clade": {
+                                                        "value": "F"
+                                                      },
+                                                      "country": {
+                                                        "value": "Kenya"
                                                       },
                                                       "host": {
                                                         "value": "Wheat"
@@ -2376,14 +2588,17 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Kenya"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
                                                               },
                                                               "group": {
                                                                 "value": "JRGLC"
+                                                              },
+                                                              "clade": {
+                                                                "value": "F"
+                                                              },
+                                                              "country": {
+                                                                "value": "Kenya"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -2396,11 +2611,14 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Ethiopia"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
+                                                              },
+                                                              "clade": {
+                                                                "value": "F"
+                                                              },
+                                                              "country": {
+                                                                "value": "Ethiopia"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -2429,14 +2647,17 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Ethiopia"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
                                                               },
                                                               "group": {
                                                                 "value": "JRCQC"
+                                                              },
+                                                              "clade": {
+                                                                "value": "F"
+                                                              },
+                                                              "country": {
+                                                                "value": "Ethiopia"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -2463,14 +2684,17 @@
                                                                     "author": "Unknown",
                                                                     "value": "Unknown"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Czechia"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Europe"
                                                                   },
                                                                   "group": {
                                                                     "value": "GHBS"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "F"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Czechia"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {}
@@ -2483,11 +2707,14 @@
                                                                     "author": "Unknown",
                                                                     "value": "Unknown"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Morocco"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "F"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Morocco"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {}
@@ -2548,11 +2775,14 @@
                                                 "author": "Lewis et al. 2018",
                                                 "value": "Lewis et al. 2018"
                                               },
-                                              "country": {
-                                                "value": "Ethiopia"
-                                              },
                                               "region": {
                                                 "value": "Africa"
+                                              },
+                                              "clade": {
+                                                "value": "G"
+                                              },
+                                              "country": {
+                                                "value": "Ethiopia"
                                               },
                                               "host": {
                                                 "value": "Wheat"
@@ -2568,11 +2798,14 @@
                                                 "author": "Lewis et al. 2018",
                                                 "value": "Lewis et al. 2018"
                                               },
-                                              "country": {
-                                                "value": "Ethiopia"
-                                              },
                                               "region": {
                                                 "value": "Africa"
+                                              },
+                                              "clade": {
+                                                "value": "G"
+                                              },
+                                              "country": {
+                                                "value": "Ethiopia"
                                               },
                                               "host": {
                                                 "value": "Wheat"
@@ -2624,14 +2857,17 @@
                                                     "author": "Li et al. 2019",
                                                     "value": "Li et al. 2019"
                                                   },
-                                                  "country": {
-                                                    "value": "Uganda"
-                                                  },
                                                   "region": {
                                                     "value": "Europe"
                                                   },
                                                   "group": {
                                                     "value": "TTKSK"
+                                                  },
+                                                  "clade": {
+                                                    "value": "G"
+                                                  },
+                                                  "country": {
+                                                    "value": "Uganda"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -2664,14 +2900,17 @@
                                                         "author": "Li et al. 2019",
                                                         "value": "Li et al. 2019"
                                                       },
-                                                      "country": {
-                                                        "value": "South Africa"
-                                                      },
                                                       "region": {
                                                         "value": "Africa"
                                                       },
                                                       "group": {
                                                         "value": "TTKSF "
+                                                      },
+                                                      "clade": {
+                                                        "value": "G"
+                                                      },
+                                                      "country": {
+                                                        "value": "South Africa"
                                                       },
                                                       "host": {
                                                         "value": "Wheat"
@@ -2704,11 +2943,14 @@
                                                             "author": "Guo et al. 2022",
                                                             "value": "Guo et al. 2022"
                                                           },
-                                                          "country": {
-                                                            "value": "Kenya"
-                                                          },
                                                           "region": {
                                                             "value": "Africa"
+                                                          },
+                                                          "clade": {
+                                                            "value": "G"
+                                                          },
+                                                          "country": {
+                                                            "value": "Kenya"
                                                           },
                                                           "host": {
                                                             "value": "Wheat"
@@ -2741,14 +2983,17 @@
                                                                 "author": "Li et al. 2019",
                                                                 "value": "Li et al. 2019"
                                                               },
-                                                              "country": {
-                                                                "value": "South Africa"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
                                                               },
                                                               "group": {
                                                                 "value": "PTKST"
+                                                              },
+                                                              "clade": {
+                                                                "value": "G"
+                                                              },
+                                                              "country": {
+                                                                "value": "South Africa"
                                                               },
                                                               "host": {
                                                                 "value": "Wheat"
@@ -2781,14 +3026,17 @@
                                                                     "author": "Li et al. 2019",
                                                                     "value": "Li et al. 2019"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "South Africa"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
                                                                   },
                                                                   "group": {
                                                                     "value": "TTKSP "
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "G"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "South Africa"
                                                                   },
                                                                   "host": {
                                                                     "value": "Wheat"
@@ -2821,11 +3069,14 @@
                                                                         "author": "Guo et al. 2022",
                                                                         "value": "Guo et al. 2022"
                                                                       },
-                                                                      "country": {
-                                                                        "value": "Kenya"
-                                                                      },
                                                                       "region": {
                                                                         "value": "Africa"
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "G"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "Kenya"
                                                                       },
                                                                       "host": {
                                                                         "value": "Wheat"
@@ -2841,14 +3092,17 @@
                                                                         "author": "Li et al. 2019",
                                                                         "value": "Li et al. 2019"
                                                                       },
-                                                                      "country": {
-                                                                        "value": "South Africa"
-                                                                      },
                                                                       "region": {
                                                                         "value": "Africa"
                                                                       },
                                                                       "group": {
                                                                         "value": "TTKSF "
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "G"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "South Africa"
                                                                       },
                                                                       "host": {
                                                                         "value": "Wheat"
@@ -2890,11 +3144,14 @@
                                                     "author": "Unknown",
                                                     "value": "Unknown"
                                                   },
-                                                  "country": {
-                                                    "value": "Eritrea"
-                                                  },
                                                   "region": {
                                                     "value": "Africa"
+                                                  },
+                                                  "clade": {
+                                                    "value": "G"
+                                                  },
+                                                  "country": {
+                                                    "value": "Eritrea"
                                                   }
                                                 },
                                                 "branch_attrs": {}
@@ -2935,11 +3192,14 @@
                                                             "author": "Unknown",
                                                             "value": "Unknown"
                                                           },
-                                                          "country": {
-                                                            "value": "Tanzania"
-                                                          },
                                                           "region": {
                                                             "value": "Africa"
+                                                          },
+                                                          "clade": {
+                                                            "value": "G"
+                                                          },
+                                                          "country": {
+                                                            "value": "Tanzania"
                                                           }
                                                         },
                                                         "branch_attrs": {}
@@ -2952,14 +3212,17 @@
                                                             "author": "Unknown",
                                                             "value": "Unknown"
                                                           },
-                                                          "country": {
-                                                            "value": "Kenya"
-                                                          },
                                                           "region": {
                                                             "value": "Africa"
                                                           },
                                                           "group": {
                                                             "value": "TTKSK"
+                                                          },
+                                                          "clade": {
+                                                            "value": "G"
+                                                          },
+                                                          "country": {
+                                                            "value": "Kenya"
                                                           }
                                                         },
                                                         "branch_attrs": {}
@@ -3005,14 +3268,17 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Kenya"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
                                                               },
                                                               "group": {
                                                                 "value": "TTTSK"
+                                                              },
+                                                              "clade": {
+                                                                "value": "G"
+                                                              },
+                                                              "country": {
+                                                                "value": "Kenya"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -3025,14 +3291,17 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Ethiopia"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
                                                               },
                                                               "group": {
                                                                 "value": "PKBSC"
+                                                              },
+                                                              "clade": {
+                                                                "value": "G"
+                                                              },
+                                                              "country": {
+                                                                "value": "Ethiopia"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -3061,11 +3330,14 @@
                                                                 "author": "Unknown",
                                                                 "value": "Unknown"
                                                               },
-                                                              "country": {
-                                                                "value": "Tanzania"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
+                                                              },
+                                                              "clade": {
+                                                                "value": "G"
+                                                              },
+                                                              "country": {
+                                                                "value": "Tanzania"
                                                               }
                                                             },
                                                             "branch_attrs": {}
@@ -3095,14 +3367,17 @@
                                                                     "author": "Unknown",
                                                                     "value": "Unknown"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Tanzania"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
                                                                   },
                                                                   "group": {
                                                                     "value": "TTKSK"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "G"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Tanzania"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {}
@@ -3115,14 +3390,17 @@
                                                                     "author": "Unknown",
                                                                     "value": "Unknown"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Kenya"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
                                                                   },
                                                                   "group": {
                                                                     "value": "PTKST"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "G"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Kenya"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {}
@@ -3179,14 +3457,17 @@
                                             "author": "Unknown",
                                             "value": "Unknown"
                                           },
-                                          "country": {
-                                            "value": "USA"
-                                          },
                                           "region": {
                                             "value": "North America"
                                           },
                                           "group": {
                                             "value": "RCRS"
+                                          },
+                                          "clade": {
+                                            "value": "H"
+                                          },
+                                          "country": {
+                                            "value": "USA"
                                           }
                                         },
                                         "branch_attrs": {}
@@ -3213,14 +3494,17 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "USA"
-                                              },
                                               "region": {
                                                 "value": "North America"
                                               },
                                               "group": {
                                                 "value": "RCRSC"
+                                              },
+                                              "clade": {
+                                                "value": "H"
+                                              },
+                                              "country": {
+                                                "value": "USA"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -3250,11 +3534,14 @@
                                                     "author": "Guo et al. 2022",
                                                     "value": "Guo et al. 2022"
                                                   },
-                                                  "country": {
-                                                    "value": "USA"
-                                                  },
                                                   "region": {
                                                     "value": "North America"
+                                                  },
+                                                  "clade": {
+                                                    "value": "H"
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -3270,11 +3557,14 @@
                                                     "author": "Guo et al. 2022",
                                                     "value": "Guo et al. 2022"
                                                   },
-                                                  "country": {
-                                                    "value": "USA"
-                                                  },
                                                   "region": {
                                                     "value": "North America"
+                                                  },
+                                                  "clade": {
+                                                    "value": "H"
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -3324,14 +3614,17 @@
                                                 "author": "Unknown",
                                                 "value": "Unknown"
                                               },
-                                              "country": {
-                                                "value": "USA"
-                                              },
                                               "region": {
                                                 "value": "North America"
                                               },
                                               "group": {
                                                 "value": "TTTTF"
+                                              },
+                                              "clade": {
+                                                "value": "H"
+                                              },
+                                              "country": {
+                                                "value": "USA"
                                               }
                                             },
                                             "branch_attrs": {}
@@ -3361,11 +3654,14 @@
                                                     "author": "Guo et al. 2022",
                                                     "value": "Guo et al. 2022"
                                                   },
-                                                  "country": {
-                                                    "value": "Brazil"
-                                                  },
                                                   "region": {
                                                     "value": "South America"
+                                                  },
+                                                  "clade": {
+                                                    "value": "H"
+                                                  },
+                                                  "country": {
+                                                    "value": "Brazil"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -3381,11 +3677,14 @@
                                                     "author": "Guo et al. 2022",
                                                     "value": "Guo et al. 2022"
                                                   },
-                                                  "country": {
-                                                    "value": "USA"
-                                                  },
                                                   "region": {
                                                     "value": "North America"
+                                                  },
+                                                  "clade": {
+                                                    "value": "H"
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
                                                   },
                                                   "host": {
                                                     "value": "Wheat"
@@ -3453,11 +3752,14 @@
                                                         "author": "Unknown",
                                                         "value": "Unknown"
                                                       },
-                                                      "country": {
-                                                        "value": "Israel"
-                                                      },
                                                       "region": {
                                                         "value": "Asia"
+                                                      },
+                                                      "clade": {
+                                                        "value": "M"
+                                                      },
+                                                      "country": {
+                                                        "value": "Israel"
                                                       }
                                                     },
                                                     "branch_attrs": {}
@@ -3470,11 +3772,14 @@
                                                         "author": "Unknown",
                                                         "value": "Unknown"
                                                       },
-                                                      "country": {
-                                                        "value": "Israel"
-                                                      },
                                                       "region": {
                                                         "value": "Asia"
+                                                      },
+                                                      "clade": {
+                                                        "value": "M"
+                                                      },
+                                                      "country": {
+                                                        "value": "Israel"
                                                       }
                                                     },
                                                     "branch_attrs": {}
@@ -3506,11 +3811,14 @@
                                                         "author": "Lewis et al. 2018",
                                                         "value": "Lewis et al. 2018"
                                                       },
-                                                      "country": {
-                                                        "value": "Italy"
-                                                      },
                                                       "region": {
                                                         "value": "Europe"
+                                                      },
+                                                      "clade": {
+                                                        "value": "M"
+                                                      },
+                                                      "country": {
+                                                        "value": "Italy"
                                                       },
                                                       "host": {
                                                         "value": "Wheat"
@@ -3543,11 +3851,14 @@
                                                             "author": "Lewis et al. 2018",
                                                             "value": "Lewis et al. 2018"
                                                           },
-                                                          "country": {
-                                                            "value": "Italy"
-                                                          },
                                                           "region": {
                                                             "value": "Europe"
+                                                          },
+                                                          "clade": {
+                                                            "value": "M"
+                                                          },
+                                                          "country": {
+                                                            "value": "Italy"
                                                           },
                                                           "host": {
                                                             "value": "Wheat"
@@ -3580,11 +3891,14 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "Italy"
-                                                              },
                                                               "region": {
                                                                 "value": "Europe"
+                                                              },
+                                                              "clade": {
+                                                                "value": "M"
+                                                              },
+                                                              "country": {
+                                                                "value": "Italy"
                                                               },
                                                               "host": {
                                                                 "value": "Wheat"
@@ -3600,11 +3914,14 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "Italy"
-                                                              },
                                                               "region": {
                                                                 "value": "Europe"
+                                                              },
+                                                              "clade": {
+                                                                "value": "M"
+                                                              },
+                                                              "country": {
+                                                                "value": "Italy"
                                                               },
                                                               "host": {
                                                                 "value": "Wheat"
@@ -3662,11 +3979,14 @@
                                                         "author": "Guo et al. 2022",
                                                         "value": "Guo et al. 2022"
                                                       },
-                                                      "country": {
-                                                        "value": "Morocco"
-                                                      },
                                                       "region": {
                                                         "value": "Africa"
+                                                      },
+                                                      "clade": {
+                                                        "value": "L"
+                                                      },
+                                                      "country": {
+                                                        "value": "Morocco"
                                                       },
                                                       "host": {
                                                         "value": "Wheat"
@@ -3699,11 +4019,14 @@
                                                             "author": "Lewis et al. 2018",
                                                             "value": "Lewis et al. 2018"
                                                           },
-                                                          "country": {
-                                                            "value": "Israel"
-                                                          },
                                                           "region": {
                                                             "value": "Asia"
+                                                          },
+                                                          "clade": {
+                                                            "value": "L"
+                                                          },
+                                                          "country": {
+                                                            "value": "Israel"
                                                           },
                                                           "host": {
                                                             "value": "Wild Emmer"
@@ -3736,11 +4059,14 @@
                                                                 "author": "Guo et al. 2022",
                                                                 "value": "Guo et al. 2022"
                                                               },
-                                                              "country": {
-                                                                "value": "Madagascar"
-                                                              },
                                                               "region": {
                                                                 "value": "Africa"
+                                                              },
+                                                              "clade": {
+                                                                "value": "L"
+                                                              },
+                                                              "country": {
+                                                                "value": "Madagascar"
                                                               },
                                                               "host": {
                                                                 "value": "Wheat"
@@ -3773,14 +4099,17 @@
                                                                     "author": "Unknown",
                                                                     "value": "Unknown"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Pakistan"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Asia"
                                                                   },
                                                                   "group": {
                                                                     "value": "RRTTF"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "L"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Pakistan"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {}
@@ -3793,11 +4122,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Israel"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Asia"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "L"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Israel"
                                                                   },
                                                                   "host": {
                                                                     "value": "Bread wheat"
@@ -3872,11 +4204,14 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "Iran"
-                                                              },
                                                               "region": {
                                                                 "value": "Asia"
+                                                              },
+                                                              "clade": {
+                                                                "value": "J"
+                                                              },
+                                                              "country": {
+                                                                "value": "Iran"
                                                               },
                                                               "host": {
                                                                 "value": "Bread wheat"
@@ -3892,11 +4227,14 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "Iran"
-                                                              },
                                                               "region": {
                                                                 "value": "Asia"
+                                                              },
+                                                              "clade": {
+                                                                "value": "J"
+                                                              },
+                                                              "country": {
+                                                                "value": "Iran"
                                                               },
                                                               "host": {
                                                                 "value": "Bread wheat"
@@ -3931,14 +4269,17 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "UK"
-                                                              },
                                                               "region": {
                                                                 "value": "Europe"
                                                               },
                                                               "group": {
                                                                 "value": "TKTTF"
+                                                              },
+                                                              "clade": {
+                                                                "value": "J"
+                                                              },
+                                                              "country": {
+                                                                "value": "UK"
                                                               },
                                                               "host": {
                                                                 "value": "Wheat"
@@ -3971,11 +4312,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Ethiopia"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "J"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Ethiopia"
                                                                   },
                                                                   "host": {
                                                                     "value": "Durum wheat"
@@ -3991,11 +4335,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Ethiopia"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "J"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Ethiopia"
                                                                   },
                                                                   "host": {
                                                                     "value": "Durum wheat"
@@ -4051,11 +4398,14 @@
                                                                 "author": "Lewis et al. 2018",
                                                                 "value": "Lewis et al. 2018"
                                                               },
-                                                              "country": {
-                                                                "value": "Iran"
-                                                              },
                                                               "region": {
                                                                 "value": "Asia"
+                                                              },
+                                                              "clade": {
+                                                                "value": "K"
+                                                              },
+                                                              "country": {
+                                                                "value": "Iran"
                                                               },
                                                               "host": {
                                                                 "value": "Bread wheat"
@@ -4088,11 +4438,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Sweden"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Europe"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "K"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Sweden"
                                                                   },
                                                                   "host": {
                                                                     "value": "Wheat"
@@ -4108,11 +4461,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Iran"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Asia"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "K"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Iran"
                                                                   },
                                                                   "host": {
                                                                     "value": "Bread wheat"
@@ -4166,11 +4522,14 @@
                                                                     "author": "Lewis et al. 2018",
                                                                     "value": "Lewis et al. 2018"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Iran"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Asia"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "K"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Iran"
                                                                   },
                                                                   "host": {
                                                                     "value": "Bread wheat"
@@ -4186,11 +4545,14 @@
                                                                     "author": "Guo et al. 2022",
                                                                     "value": "Guo et al. 2022"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Ethiopia"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Africa"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "K"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Ethiopia"
                                                                   },
                                                                   "host": {
                                                                     "value": "Wheat"
@@ -4225,11 +4587,14 @@
                                                                     "author": "Guo et al. 2022",
                                                                     "value": "Guo et al. 2022"
                                                                   },
-                                                                  "country": {
-                                                                    "value": "Germany"
-                                                                  },
                                                                   "region": {
                                                                     "value": "Europe"
+                                                                  },
+                                                                  "clade": {
+                                                                    "value": "I"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Germany"
                                                                   },
                                                                   "host": {
                                                                     "value": "Wheat"
@@ -4262,11 +4627,14 @@
                                                                         "author": "Lewis et al. 2018",
                                                                         "value": "Lewis et al. 2018"
                                                                       },
-                                                                      "country": {
-                                                                        "value": "Denmark"
-                                                                      },
                                                                       "region": {
                                                                         "value": "Europe"
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "I"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "Denmark"
                                                                       },
                                                                       "host": {
                                                                         "value": "Wheat"
@@ -4282,11 +4650,14 @@
                                                                         "author": "Lewis et al. 2018",
                                                                         "value": "Lewis et al. 2018"
                                                                       },
-                                                                      "country": {
-                                                                        "value": "Denmark"
-                                                                      },
                                                                       "region": {
                                                                         "value": "Europe"
+                                                                      },
+                                                                      "clade": {
+                                                                        "value": "I"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "Denmark"
                                                                       },
                                                                       "host": {
                                                                         "value": "Wheat"
