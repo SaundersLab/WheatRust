@@ -1,0 +1,50 @@
+{
+  "title": "Analysis of worldwide wheat yellow and stem rust samples",
+  "colorings": [
+      {
+        "title": "Genetic Group",
+        "type": "categorical",
+        "key": "group"
+      },
+    {
+        "title": "Country",
+        "type": "categorical",
+        "key": "country"
+    },
+    {
+        "title": "Region",
+        "type": "categorical",
+        "key": "region"
+    },
+    {
+	"title": "Clade",
+	"type": "categorical",
+	"key": "clade"
+    }
+],
+  "geo_resolutions": [
+    "location",
+    "country",
+    "region"
+  ],
+  "display_defaults": {
+    "color_by": "group"
+  },
+  "maintainer": [
+    "Loizos Savva and Diane Saunders",
+    "https://www.jic.ac.uk/people/diane-saunders/"
+  ],
+  "filters": [
+    "country",
+    "author",
+    "host",
+    "group",
+    "collector",
+    "region",
+    "clade"
+  ],
+  "panels": [
+    "tree",
+    "map"
+  ]
+}
