@@ -422,11 +422,6 @@ ET08/10	Pst	2010	Africa	Ethiopia	unknown	Unknown	PstS6	Unknown	Ali et al., 2017	
 ET399_15	Pst	2015	Africa	Ethiopia	unknown	Unknown	PstS6	Unknown	Unknown	Unknown	Unknown	Unknown
 AZ165/16	Pst	2016	Asia	Azerbaijan	unknown	Unknown	PstS2	Unknown	Walter et al., 2016	Molecular markers for tracking the origin and worldwide distribution of invasive strains of Puccinia striiformis	Ecology and Evolution (2016) 6:9	https://doi.org/10.1002/ece3.2069
 KE86058	Pst	2016	Africa	Kenya	unknown	Unknown	PstS1	Unknown	Walter et al., 2016	Molecular markers for tracking the origin and worldwide distribution of invasive strains of Puccinia striiformis	Ecology and Evolution (2016) 6:9	https://doi.org/10.1002/ece3.2069
-20/050	Pst	2020	Europe	UK	unknown	KWS Siskin	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
-20/092	Pst	2020	Europe	UK	unknown	LG Astronomer	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
-20/191	Pst	2020	Europe	UK	unknown	KWS Siskin	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
-20/293	Pst	2020	Europe	UK	unknown	KWS Extase	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
-20/304	Pst	2020	Europe	UK	unknown	KWS Extase	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
 15.0517	Pst	24/06/2015	Europe	UK	North Yorkshire	Zulu	Triticum aestivum	UKCPVS	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
 15.0523	Pst	26/06/2015	Europe	UK	Bishop Burton	XI19	Triticum aestivum	UKCPVS	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
 16.0265	Pst	28/04/2016	Europe	UK	Wansford	KWS Kerrin	Triticum aestivum	Frontier	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
@@ -434,3 +429,25 @@ KE86058	Pst	2016	Africa	Kenya	unknown	Unknown	PstS1	Unknown	Walter et al., 2016	
 16.0338	Pst	20/05/2016	Europe	UK	Thornton	Evolution	Triticum aestivum	Iain Lindsay	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
 17.0277	Pst	13/07/2017	Europe	UK	Ickleton	Warrior	Triticum aestivum	Ruth Bryant	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
 17.0588	Pst	21/11/2017	Europe	Argentina	Bordenave	Topacio	Triticum durum	Pablo Eduardo Campos	Adams et al., 2021	Rust expression browser: an open source database for simultaneous analysis of host and pathogen gene expression profiles with expVIP	BMC Genomics 22, 166 (2021)	https://doi.org/10.1186/s12864-021-07488-3
+20/050	Pst	05/2020	Europe	UK	Derbyshire	KWS Siskin	Unknown	Unknown	Unknown	UKCPVS Annual Report 2021	Unknown	https://projectblue.blob.core.windows.net/media/Default/Research%20Papers/Cereals%20and%20Oilseed/2021/UKCPVS%20Annual%20Report%20(2021).pdf
+20/092	Pst	05/2020	Europe	UK	Bridgend	LG Astronomer	Unknown	Unknown	Unknown	UKCPVS Annual Report 2021	Unknown	https://projectblue.blob.core.windows.net/media/Default/Research%20Papers/Cereals%20and%20Oilseed/2021/UKCPVS%20Annual%20Report%20(2021).pdf
+20/191	Pst	06/2020	Europe	UK	Oxfordshire	KWS Siskin	Unknown	Unknown	Unknown	UKCPVS Annual Report 2021	Unknown	https://projectblue.blob.core.windows.net/media/Default/Research%20Papers/Cereals%20and%20Oilseed/2021/UKCPVS%20Annual%20Report%20(2021).pdf
+20/293	Pst	07/2020	Europe	UK	Lincolnshire	KWS Extase	Unknown	Unknown	Unknown	UKCPVS Annual Report 2021	Unknown	https://projectblue.blob.core.windows.net/media/Default/Research%20Papers/Cereals%20and%20Oilseed/2021/UKCPVS%20Annual%20Report%20(2021).pdf
+20/304	Pst	07/2020	Europe	UK	Essex	KWS Extase	Unknown	Unknown	Unknown	UKCPVS Annual Report 2021	Unknown	https://projectblue.blob.core.windows.net/media/Default/Research%20Papers/Cereals%20and%20Oilseed/2021/UKCPVS%20Annual%20Report%20(2021).pdf
+21-0001	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0003	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0004	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0005	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0006	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0007	Pst	30/11/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0008	Pst	02/12/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0009	Pst	02/12/2020	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0010	Pst	02/12/2020	Europe	France	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0013	Pst	17/12/2021	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0014	Pst	17/12/2021	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0015	Pst	17/12/2021	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0016	Pst	17/12/2021	Europe	Denmark	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0018	Pst	17/12/2021	Europe	Sweden	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0019	Pst	17/12/2021	Europe	Sweden	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0020	Pst	17/12/2021	Europe	Italy	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
+21-0021	Pst	17/12/2021	Europe	Belgium	unknown	Morocco	Wheat	Mogens	Unknown	Unknown	Unknown	Unknown
