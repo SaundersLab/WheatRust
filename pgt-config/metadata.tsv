@@ -1,6 +1,6 @@
 strain	species	date	region	country	clade	host	group	authors	title	journal	paper url
-SE-02	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
-SE-03	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
+SE-02	Pga	Unknown	Europe	Sweden	Pga	Oat	Unknown	Unknown			Unknown
+SE-03	Pga	Unknown	Europe	Sweden	Pga	Oat	Unknown	Unknown			Unknown
 98	Pgt	1978	Oceania	Australia	A	Wheat	Unknown	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
 194	Pgt	1969	Oceania	Australia	A	Wheat	Unknown	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
 01TUR34A	Pgt	2001	Asia	Turkey	A	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
