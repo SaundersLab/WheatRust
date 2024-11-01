@@ -1,89 +1,17 @@
 strain	species	date	region	country	clade	host	group	authors	title	journal	paper url
+SE-02	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
+SE-03	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
 98	Pgt	1978	Oceania	Australia	A	Wheat	Unknown	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
 194	Pgt	1969	Oceania	Australia	A	Wheat	Unknown	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
-00M063C	Pgt	2000	North America	USA	H	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-01MN84-A-1-2	Pgt	2001	North America	USA	H	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-01MN84A-1-2	Pgt	2001	North America	USA	H	Unknown	TTTTF	Unknown			Unknown
 01TUR34A	Pgt	2001	Asia	Turkey	A	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-04KEN15604	Pgt	2004	Africa	Kenya	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-06KEN19V3	Pgt	2006	Africa	Kenya	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-06ND76C	Pgt	2006	North America	USA	C	Unknown	QFCSC	Unknown			Unknown
-07KEN11-2	Pgt	2007	Africa	Kenya	G	Unknown	TTKSK	Unknown			Unknown
-07KEN24-4	Pgt	2007	Africa	Kenya	G	Unknown	TTTSK	Unknown			Unknown
-09ETH8-3	Pgt	2009	Africa	Ethiopia	F	Unknown	JRCQC	Unknown			Unknown
-09ID073-2	Pgt	2009	North America	USA	H	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-09TAN06-2	Pgt	2009	Africa	Tanzania	G	Unknown	TTKSK	Unknown			Unknown
-09TAN10-1	Pgt	2009	Africa	Tanzania	G	Unknown	Unknown	Unknown			Unknown
-09TAN8-16	Pgt	2009	Africa	Tanzania	G	Unknown	Unknown	Unknown			Unknown
-126-6711	Pgt	1926	Oceania	Australia	C	Wheat	Unknown	Upadhyaya et al. 2015			https://doi.org/10.3389/fpls.2014.00759
-13ETH22-2	Pgt	2013	Africa	Ethiopia	K	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-13GER17-2	Pgt	2013	Europe	Germany	I	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
 21-0	Pgt	1954	Oceania	Australia	A	Wheat	Unknown	Chen et al. 2017			https://doi.org/10.1101/469338
 326-1-2-3-5-6	Pgt	1969	Oceania	Australia	A	Wheat	Unknown	Chen et al. 2017			https://doi.org/10.1101/469338
 34-2-12	Pgt	1982	Oceania	Australia	A	Triticale	Unknown	Chen et al. 2017			https://doi.org/10.1101/469338
 34-2-12-13	Pgt	1984	Oceania	Australia	A	Triticale	Unknown	Chen et al. 2017			https://doi.org/10.1101/469338
-56SD37B	Pgt	1956	North America	USA	H	Unknown	RCRS	Unknown			Unknown
-59KS19	Pgt	1959	North America	USA	C	Unknown	MCCFC	Unknown			Unknown
-59OH5B	Pgt	1959	North America	USA	C	Unknown	QCCQ	Unknown			Unknown
-60IRN10B	Pgt	1960	Asia	Iran	C	Unknown	HPCS	Unknown			Unknown
-65SD2	Pgt	1965	North America	USA	E	Unknown	TMLK	Unknown			Unknown
-69KS170	Pgt	1969	North America	USA	E	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-71MN603-2	Pgt	1971	North America	USA	C	Unknown	MCCD	Unknown			Unknown
-72ETH11-4	Pgt	1972	Africa	Ethiopia	G	Unknown	PKBSC	Unknown			Unknown
-73WA399C	Pgt	1973	North America	USA	C	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-74MN1409	Pgt	1974	North America	USA	E	Unknown	TPMKC	Unknown			Unknown
-74MN1409-2	Pgt	1974	North America	USA	E	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-75MN68C	Pgt	1975	North America	USA	E	Unknown	RHTS	Unknown			Unknown
-76WA1433B	Pgt	1976	North America	USA	C	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-77ND82A	Pgt	1977	North America	USA	H	Unknown	RCRSC	Unknown			Unknown
-80MAR33B	Pgt	1980	Africa	Morocco	F	Unknown	Unknown	Unknown			Unknown
-81BRA38A	Pgt	1981	South America	Brazil	H	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-83ETH06-1	Pgt	1983	Africa	Ethiopia	B	Unknown	GBCS	Unknown			Unknown
 83KEN7A	Pgt	1983	Africa	Kenya	A	Unknown	TKRJ	Unknown			Unknown
 84CSK759C	Pgt	1984	Europe	Czechia	A	Unknown	HFCQ	Unknown			Unknown
-84CSK764-3	Pgt	1984	Europe	Czechia	F	Unknown	GHBS	Unknown			Unknown
-84ETH19A	Pgt	1984	Africa	Ethiopia	F	Unknown	Unknown	Unknown			Unknown
-84KEN8B	Pgt	1984	Africa	Kenya	F	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-84KEN8C	Pgt	1984	Africa	Kenya	C	Unknown	Unknown	Unknown			Unknown
-84MAR10A	Pgt	1984	Africa	Morocco	L	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-85MAR42-2	Pgt	1985	Africa	Morocco	F	Unknown	Unknown	Unknown			Unknown
-86ITA1042A	Pgt	1986	Europe	Italy	F	Unknown	GHCS	Unknown			Unknown
-86MAR185C	Pgt	1986	Africa	Morocco	C	Unknown	RHTS	Unknown			Unknown
-86PAK1030A	Pgt	1986	Asia	Pakistan	L	Unknown	RRTTF	Unknown			Unknown
 87ETH3008D	Pgt	1987	Africa	Ethiopia	A	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-87KEN11-4	Pgt	1987	Africa	Kenya	F	Unknown	JCMQ	Unknown			Unknown
-87KEN3018-1	Pgt	1987	Africa	Kenya	F	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-87KEN3018-4	Pgt	1987	Africa	Kenya	F	Unknown	JRGLC	Unknown			Unknown
-87MDG1054A	Pgt	1987	Africa	Madagascar	L	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
-96ZIM2A	Pgt	1996	Africa	Zimbabwe	C	Unknown	RKBJ	Unknown			Unknown
-99KS76A	Pgt	1999	North America	USA	E	Unknown	RKQQC	Unknown			Unknown
 CZ-01	Pgt	2010	Europe	Czechia	A	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-CZ-02	Pgt	2013	Europe	Czechia	B	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-CZ-03	Pgt	2013	Europe	Czechia	B	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-DK-01	Pgt	2013	Europe	Denmark	I	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-DK-02	Pgt	2013	Europe	Denmark	I	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-Eri-2010-13A	Pgt	2010	Africa	Eritrea	G	Unknown	Unknown	Unknown			Unknown
-ET-01	Pgt	2014	Africa	Ethiopia	G	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-ET-02	Pgt	2014	Africa	Ethiopia	G	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-ET-03	Pgt	2015	Africa	Ethiopia	J	Durum wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-ET-04	Pgt	2015	Africa	Ethiopia	J	Durum wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-H-01	Pgt	2002	Europe	Hungary	D	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-01	Pgt	2015	Asia	Iran	F	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-02	Pgt	2015	Asia	Iran	K	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-03	Pgt	2015	Asia	Iran	K	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-04	Pgt	2015	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-05	Pgt	2009	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IR-06	Pgt	2015	Asia	Iran	K	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IS-02	Pgt	2005	Asia	Israel	L	Wild Emmer	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IS-03	Pgt	2006	Asia	Israel	L	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-ISR2147	Pgt	Unknown	Asia	Israel	M	Unknown	Unknown	Unknown			Unknown
-ISR2164	Pgt	Unknown	Asia	Israel	M	Unknown	Unknown	Unknown			Unknown
-IT-01	Pgt	2016	Europe	Italy	M	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IT-02	Pgt	2016	Europe	Italy	M	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IT-03	Pgt	2016	Europe	Italy	M	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-IT-04	Pgt	2016	Europe	Italy	M	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-Ken2010-10A	Pgt	2010	Africa	Kenya	G	Unknown	PTKST	Unknown			Unknown
-M-01	Pgt	1988-89	North America	Mexico	E	Bread wheat	RKQ 	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
 Pgt279	Pgt	2014	Oceania	Australia	A	Wheat	Unknown	Chen et al. 2017			https://doi.org/10.1126/science.aao4810
 Pgt632	Pgt	2014	Oceania	Australia	A	Wheat	Unknown	Chen et al. 2017			https://doi.org/10.1126/science.aao4810
 SA-01	Pgt	1981	Africa	South Africa	A	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
@@ -93,15 +21,100 @@ SA-04	Pgt	2000	Africa	South Africa	A	Barley	Unknown	Lewis et al. 2018			https://
 SA-05	Pgt	2003	Africa	South Africa	A	Triticale	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
 SA-06	Pgt	2005	Africa	South Africa	A	Triticale	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
 SA-07	Pgt	2007	Africa	South Africa	A	Triticale	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-SE-01	Pgt	2014	Europe	Sweden	K	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-SE-02	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
-SE-03	Pga	Unknown	Europe	Sweden	?	Oat	Unknown	Unknown			Unknown
-Ug99	Pgt	1999	Europe	Uganda	G	Wheat	TTKSK	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+83ETH06-1	Pgt	1983	Africa	Ethiopia	B	Unknown	GBCS	Unknown			Unknown
+CZ-02	Pgt	2013	Europe	Czechia	B	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+CZ-03	Pgt	2013	Europe	Czechia	B	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+06ND76C	Pgt	2006	North America	USA	D	Unknown	QFCSC	Unknown			Unknown
+126-6711	Pgt	1926	Oceania	Australia	D	Wheat	Unknown	Upadhyaya et al. 2015			https://doi.org/10.3389/fpls.2014.00759
+59KS19	Pgt	1959	North America	USA	D	Unknown	MCCFC	Unknown			Unknown
+59OH5B	Pgt	1959	North America	USA	D	Unknown	QCCQ	Unknown			Unknown
+60IRN10B	Pgt	1960	Asia	Iran	E	Unknown	HPCS	Unknown			Unknown
+71MN603-2	Pgt	1971	North America	USA	D	Unknown	MCCD	Unknown			Unknown
+73WA399C	Pgt	1973	North America	USA	D	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+76WA1433B	Pgt	1976	North America	USA	D	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+84KEN8C	Pgt	1984	Africa	Kenya	E	Unknown	Unknown	Unknown			Unknown
+86MAR185C	Pgt	1986	Africa	Morocco	E	Unknown	RHTS	Unknown			Unknown
+96ZIM2A	Pgt	1996	Africa	Zimbabwe	D	Unknown	RKBJ	Unknown			Unknown
+US-01	Pgt	1990-92	North America	USA	D	Wheat	QCCJB	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+H-01	Pgt	2002	Europe	Hungary	F	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+65SD2	Pgt	1965	North America	USA	L	Unknown	TMLK	Unknown			Unknown
+69KS170	Pgt	1969	North America	USA	L	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+74MN1409	Pgt	1974	North America	USA	L	Unknown	TPMKC	Unknown			Unknown
+74MN1409-VI-A	Pgt	1974	North America	USA	L	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+75MN68C	Pgt	1975	North America	USA	L	Unknown	RHTS	Unknown			Unknown
+99KS76A	Pgt	1999	North America	USA	L	Unknown	RKQQC	Unknown			Unknown
+M-01	Pgt	1988-89	North America	Mexico	L	Bread wheat	RKQ	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+UR-01	Pgt	2011	South America	Uruguay	L	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+UR-02	Pgt	2011	South America	Uruguay	L	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+09ETH8-3	Pgt	2009	Africa	Ethiopia	K	Unknown	JRCQC	Unknown			Unknown
+80MAR33B	Pgt	1980	Africa	Morocco	K	Unknown	Unknown	Unknown			Unknown
+84CSK764-3	Pgt	1984	Europe	Czechia	K	Unknown	GHBS	Unknown			Unknown
+84ETH19A	Pgt	1984	Africa	Ethiopia	K	Unknown	Unknown	Unknown			Unknown
+84KEN8B	Pgt	1984	Africa	Kenya	K	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+85MAR42-2	Pgt	1985	Africa	Morocco	K	Unknown	Unknown	Unknown			Unknown
+86ITA1042A	Pgt	1986	Europe	Italy	K	Unknown	GHCS	Unknown			Unknown
+87KEN11-4	Pgt	1987	Africa	Kenya	K	Unknown	JCMQ	Unknown			Unknown
+87KEN3018-1	Pgt	1987	Africa	Kenya	K	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+87KEN3018-4	Pgt	1987	Africa	Kenya	K	Unknown	JRGLC	Unknown			Unknown
+IR-01	Pgt	2015	Asia	Iran	K	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+04KEN15604	Pgt	2004	Africa	Kenya	C	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+06KEN19V3	Pgt	2006	Africa	Kenya	C	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+07KEN11-2	Pgt	2007	Africa	Kenya	C	Unknown	TTKSK	Unknown			Unknown
+07KEN24-4	Pgt	2007	Africa	Kenya	C	Unknown	TTTSK	Unknown			Unknown
+09TAN06-2	Pgt	2009	Africa	Tanzania	C	Unknown	TTKSK	Unknown			Unknown
+09TAN10-1	Pgt	2009	Africa	Tanzania	C	Unknown	Unknown	Unknown			Unknown
+09TAN8-16	Pgt	2009	Africa	Tanzania	C	Unknown	Unknown	Unknown			Unknown
+72ETH11-4	Pgt	1972	Africa	Ethiopia	C	Unknown	PKBSC	Unknown			Unknown
+Eri-2010-13A	Pgt	2010	Africa	Eritrea	C	Unknown	Unknown	Unknown			Unknown
+ET-01	Pgt	2014	Africa	Ethiopia	C	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+ET-02	Pgt	2014	Africa	Ethiopia	C	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+Ken2010-10A	Pgt	2010	Africa	Kenya	C	Unknown	PTKST	Unknown			Unknown
+Ug99	Pgt	1999	Europe	Uganda	C	Wheat	TTKSK	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+UVPgt55	Pgt	2000	Africa	South Africa	C	Wheat	TTKSF	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+UVPgt59	Pgt	2007	Africa	South Africa	C	Wheat	TTKSP	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+UVPgt60	Pgt	2009	Africa	South Africa	C	Wheat	PTKST	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+UVPgt61	Pgt	2010	Africa	South Africa	C	Wheat	TTKSF	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+00M063C	Pgt	2000	North America	USA	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+01MN84-A-1-2	Pgt	2001	North America	USA	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+01MN84A-1-2	Pgt	2001	North America	USA	G	Unknown	TTTTF	Unknown			Unknown
+09ID073-2	Pgt	2009	North America	USA	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+56SD37B	Pgt	1956	North America	USA	G	Unknown	RCRS	Unknown			Unknown
+77ND82A	Pgt	1977	North America	USA	G	Unknown	RCRSC	Unknown			Unknown
+81BRA38A	Pgt	1981	South America	Brazil	G	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+13GER17-2	Pgt	2013	Europe	Germany	J	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+DK-01	Pgt	2013	Europe	Denmark	J	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+DK-02	Pgt	2013	Europe	Denmark	J	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+ET-03	Pgt	2015	Africa	Ethiopia	J	Durum wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+ET-04	Pgt	2015	Africa	Ethiopia	J	Durum wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IR-04	Pgt	2015	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IR-05	Pgt	2009	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
 UK-01	Pgt	2013	Europe	UK	J	Wheat	TKTTF	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-UR-01	Pgt	2011	South America	Uruguay	E	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-UR-02	Pgt	2011	South America	Uruguay	E	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-US-01	Pgt	1990-92	North America	USA	C	Wheat	QCCJB	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
-UVPgt55	Pgt	2000	Africa	South Africa	G	Wheat	TTKSF 	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
-UVPgt59	Pgt	2007	Africa	South Africa	G	Wheat	TTKSP 	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
-UVPgt60	Pgt	2009	Africa	South Africa	G	Wheat	PTKST	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
-UVPgt61	Pgt	2010	Africa	South Africa	G	Wheat	TTKSF 	Li et al. 2019			https://doi.org/10.1038/s41467-019-12927-7
+13ETH22-2	Pgt	2013	Africa	Ethiopia	J	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+IR-02	Pgt	2015	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IR-03	Pgt	2015	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IR-06	Pgt	2015	Asia	Iran	J	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+SE-01	Pgt	2014	Europe	Sweden	J	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+84MAR10A	Pgt	1984	Africa	Morocco	I	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+86PAK1030A	Pgt	1986	Asia	Pakistan	I	Unknown	RRTTF	Unknown			Unknown
+87MDG1054A	Pgt	1987	Africa	Madagascar	I	Wheat		Guo et al. 2022			https://doi.org/10.1038/s41467-022-34050-w
+IS-02	Pgt	2005	Asia	Israel	I	Wild Emmer	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IS-03	Pgt	2006	Asia	Israel	I	Bread wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+ISR2147	Pgt	Unknown	Asia	Israel	H	Unknown	Unknown	Unknown			Unknown
+ISR2164	Pgt	Unknown	Asia	Israel	H	Unknown	Unknown	Unknown			Unknown
+IT-01	Pgt	2016	Europe	Italy	H	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IT-02	Pgt	2016	Europe	Italy	H	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IT-03	Pgt	2016	Europe	Italy	H	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+IT-04	Pgt	2016	Europe	Italy	H	Wheat	Unknown	Lewis et al. 2018			https://doi.org/10.1038/s41467-019-12927-7
+KEN-0224-01	Pgt	2024	Africa	Kenya	MARPLE	Wheat	Unknown	In preparation			TBC
+KEN-0224-02	Pgt	2024	Africa	Kenya	MARPLE	Wheat	Unknown	In preparation			TBC
+KEN-0224-03	Pgt	2024	Africa	Kenya	MARPLE	Wheat	Unknown	In preparation			TBC
+KEN-0224-04	Pgt	2024	Africa	Kenya	MARPLE	Wheat	Unknown	In preparation			TBC
+KEN-0224-05	Pgt	2024	Africa	Kenya	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-01	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-02	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-03	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-04	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-05	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-06	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+ETH-0523-07	Pgt	2023	Africa	Ethiopia	MARPLE	Wheat	Unknown	In preparation			TBC
+											
